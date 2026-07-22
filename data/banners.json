@@ -1,0 +1,36 @@
+{
+  "success": true,
+  "message": "Banner fetched successfully",
+  "data": [
+    {
+      "bannerId": 1,
+      "bannerName": "Summer Sale",
+      "bannerImage": "https://www.shutterstock.com/image-vector/vector-summer-sale-banner-template-260nw-1984235114.jpg",
+      "redirectedLink": "/item/recommendation"
+    },
+    {
+      "bannerId": 2,
+      "bannerName": "Mobile Offers",
+      "bannerImage": "https://img.magnific.com/free-psd/sales-discount-facebook-template_23-2149959351.jpg?semt=ais_hybrid&w=740&q=80",
+      "redirectedLink": "/item/get/Mobiles/all"
+    },
+    {
+      "bannerId": 3,
+      "bannerName": "Laptop Sale",
+      "bannerImage": "https://assets.aboutamazon.com/4b/b3/4d4cb3ff46b8a5575290b4737e82/laptop-banner.jpg",
+      "redirectedLink": "/item/get/Laptops/all"
+    },
+    {
+      "bannerId": 4,
+      "bannerName": "Headphones",
+      "bannerImage": "https://img.magnific.com/premium-psd/headphone-offer-banner-template_1305553-152.jpg?semt=ais_hybrid&w=740&q=80",
+      "redirectedLink": "/item/get/Headphones/all"
+    },
+    {
+      "bannerId": 5,
+      "bannerName": "Furniture",
+      "bannerImage": "https://img.magnific.com/free-vector/flat-furniture-sale-banner-with-photo_23-2148926442.jpg?semt=ais_hybrid&w=740&q=80",
+      "redirectedLink": "/item/get/Furniture/all"
+    }
+  ]
+}

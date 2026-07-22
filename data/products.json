@@ -1,0 +1,1802 @@
+{
+    "success": true,
+    "message": "Products fetched successfully",
+    "data": [
+        {
+            "itemId": 1,
+            "itemName": "Oppo Find X9 Ultra 512GB Canyon Orange",
+            "itemDescription": "Featuring a premium design, a massive 200 MP Hasselblad master camera setup, and a vibrant 6.8-inch OLED display.",
+            "itemImage": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTyy4JBQxk2N2gaUi5NQl5Ennc8zt-YVnteqZRe5eS06OJF9YQpaYfewDRzWAcFxu0yrevudsat4V8IwzfTuS3t46dxOdgXSw",
+            "actualPrice": "2,21,399",
+            "discountPrice": "1,69,399",
+            "category": "Mobiles",
+            "fav": 0,
+            "itemDetails": [
+                {
+                    "itemDetailId": 1,
+                    "itemDetail": "Brand : Oppo"
+                },
+                {
+                    "itemDetailId": 2,
+                    "itemDetail": "Storage : 512 GB"
+                },
+                {
+                    "itemDetailId": 3,
+                    "itemDetail": "RAM : 12 GB"
+                },
+                {
+                    "itemDetailId": 4,
+                    "itemDetail": "Display : 17.32 cm (6.82 inch)"
+                },
+                {
+                    "itemDetailId": 5,
+                    "itemDetail": "Battery : 6000 mAh"
+                }
+            ]
+        },
+        {
+            "itemId": 2,
+            "itemName": "Oppo Reno 14 Pro 5G",
+            "itemDescription": "Powered by the high-end Snapdragon 8 Elite Gen 5 processor, offering extreme IP68/IP69 durability, and a 10× ultra-sensing optical zoom.",
+            "itemImage": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSWK2spfp_iKe375kASHW3wF63fy2F77JUkm7Q9eKEr602BtRe0anpp-itvFEPCK6txRPwkIpLwCxQhCqwKYefvRKthhKdT_xkk7P5X_HyXY0GOQ23spfu2",
+            "actualPrice": "54,999",
+            "discountPrice": "49,999",
+            "category": "Mobiles",
+            "fav": 0,
+            "itemDetails": [
+                {
+                    "itemDetailId": 1,
+                    "itemDetail": "Brand : Oppo"
+                },
+                {
+                    "itemDetailId": 2,
+                    "itemDetail": "Storage : 256 GB"
+                },
+                {
+                    "itemDetailId": 3,
+                    "itemDetail": "RAM : 12 GB"
+                },
+                {
+                    "itemDetailId": 4,
+                    "itemDetail": "Display : 6.8 inch"
+                },
+                {
+                    "itemDetailId": 5,
+                    "itemDetail": "Battery : 6200 mAh"
+                }
+            ]
+        },
+        {
+            "itemId": 3,
+            "itemName": "Oppo Reno14 5G",
+            "itemDescription": "A highly stylish mid-ranger dressed in Forest Green with a minimal-bezel 6.6-inch screen and 5G connectivity.",
+            "itemImage": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQIWooKPBQTnnhkU3TWFggMK0gffUhNbrZt10s1j6Qu0r5S2VmIL_Qg7tomWl8Esgovtgmns2MgoP2oUmtBgNmWF_Rmnha5WQ",
+            "actualPrice": "38,999",
+            "discountPrice": "29,999",
+            "category": "Mobiles",
+            "fav": 0,
+            "itemDetails": [
+                {
+                    "itemDetailId": 1,
+                    "itemDetail": "Brand : Oppo"
+                },
+                {
+                    "itemDetailId": 2,
+                    "itemDetail": "Storage : 256 GB"
+                },
+                {
+                    "itemDetailId": 3,
+                    "itemDetail": "RAM : 8 GB"
+                },
+                {
+                    "itemDetailId": 4,
+                    "itemDetail": "Display : 6.6 inch"
+                },
+                {
+                    "itemDetailId": 5,
+                    "itemDetail": "Battery : 5050 mAh"
+                }
+            ]
+        },
+        {
+            "itemId": 4,
+            "itemName": "Xiaomi 17T",
+            "itemDescription": "The 17T and standard 17 models feature a revised square camera matrix layout, integrating advanced MediaTek Dimensity and Snapdragon chipsets alongside a 50MP triple-camera ecosystem.",
+            "itemImage": "https://m.media-amazon.com/images/I/71HXsFonzaL._AC_UF1000,1000_QL80_.jpg",
+            "actualPrice": "89999",
+            "discountPrice": "74999",
+            "category": "Mobiles",
+            "fav": 0,
+            "itemDetails": [
+                {
+                    "itemDetailId": 1,
+                    "itemDetail": "Brand : Xiaomi"
+                },
+                {
+                    "itemDetailId": 2,
+                    "itemDetail": "Storage : 512 GB"
+                },
+                {
+                    "itemDetailId": 3,
+                    "itemDetail": "RAM : 12 GB"
+                },
+                {
+                    "itemDetailId": 4,
+                    "itemDetail": "Battery : 6330 mAh"
+                },
+                {
+                    "itemDetailId": 5,
+                    "itemDetail": "Fast Charging : 100W"
+                }
+            ]
+        },
+        {
+            "itemId": 5,
+            "itemName": "Xiaomi 15 Ultra",
+            "itemDescription": "Premium Xiaomi smartphone.",
+            "itemImage": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcT3pDddkPv_CQUIu0lERehoLdgt8x7UUVOqZ3eSHoyZNnvXyQpV9jxkMsO-SEn6tAfMLaGMfYdybUTX_hs36xUxVx_YV3v035zIQuslRK8QOi7yDmKrxN1mEg",
+            "actualPrice": "1,39,999",
+            "discountPrice": "99,999",
+            "category": "Mobiles",
+            "fav": 0,
+            "itemDetails": [
+                {
+                    "itemDetailId": 1,
+                    "itemDetail": "Brand : Xiaomi"
+                },
+                {
+                    "itemDetailId": 2,
+                    "itemDetail": "Storage : 512 GB"
+                },
+                {
+                    "itemDetailId": 3,
+                    "itemDetail": "RAM : 16 GB"
+                },
+                {
+                    "itemDetailId": 4,
+                    "itemDetail": "Display : AMOLED"
+                },
+                {
+                    "itemDetailId": 5,
+                    "itemDetail": "Battery : 5500 mAh"
+                }
+            ]
+        },
+        {
+            "itemId": 6,
+            "itemName": "Vivo X100 Ultra",
+            "itemDescription": "Vivo X100 Ultra Camera Phone 200MP Zeiss APO Super Telephoto.",
+            "itemImage": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR_GHHXTcIl2G-91a7ECzyl9RYaiMJbbt8ywUx8_PyEQeFkiz6M",
+            "actualPrice": "59,999",
+            "discountPrice": "55,999",
+            "category": "Mobiles",
+            "fav": 0,
+            "itemDetails": [
+                {
+                    "itemDetailId": 1,
+                    "itemDetail": "Brand : Vivo"
+                },
+                {
+                    "itemDetailId": 2,
+                    "itemDetail": "RAM : 12 GB"
+                },
+                {
+                    "itemDetailId": 3,
+                    "itemDetail": "Storage : 256 GB"
+                },
+                {
+                    "itemDetailId": 4,
+                    "itemDetail": "speaker : Hi-Fi"
+                },
+                {
+                    "itemDetailId": 5,
+                    "itemDetail": "Battery : 5500 mAh"
+                }
+            ]
+        },
+        {
+            "itemId": 7,
+            "itemName": "Vivo V40 Pro",
+            "itemDescription": "Vivo V40 Pro 5G Smartphone.Features a massive circular ZEISS camera module specialized in telephoto photography.",
+            "itemImage": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTj4SmD_NEaCZQOFWg0kYbDm76j2T3aQctWPHxBjl8oucDhvlmd2jEGqCkYNcBzpBYoSytyDNXuDtJ5AbovrYVS8jkVDyqh",
+            "actualPrice": "94,999",
+            "discountPrice": "89,999",
+            "category": "Mobiles",
+            "fav": 0,
+            "itemDetails": [
+                {
+                    "itemDetailId": 1,
+                    "itemDetail": "Brand : Vivo"
+                },
+                {
+                    "itemDetailId": 2,
+                    "itemDetail": "Camera : ZEISS"
+                },
+                {
+                    "itemDetailId": 3,
+                    "itemDetail": "RAM : 12 GB"
+                },
+                {
+                    "itemDetailId": 4,
+                    "itemDetail": "Storage : 512 GB"
+                },
+                {
+                    "itemDetailId": 5,
+                    "itemDetail": "Battery : 6000 mAh"
+                }
+            ]
+        },
+        {
+            "itemId": 8,
+            "itemName": "HP Laptop",
+            "itemDescription": "HP Laptop AMD Ryzen 3 7320U.",
+            "itemImage": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTBf-h4W2Ba3ncFkvKDRtqFzr_lqQeuS5HZisu-p4URruByqhDfgLUm3ME1jj80liXziPef7o9TqsDmD_Bm4pNxTGzQ5_LAmAwIOTjLaP81Np4pXMT38gQfWQ",
+            "actualPrice": "43,999",
+            "discountPrice": "39,999",
+            "category": "Laptops",
+            "fav": 0,
+            "itemDetails": [
+                {
+                    "itemDetailId": 1,
+                    "itemDetail": "Brand : HP"
+                },
+                {
+                    "itemDetailId": 2,
+                    "itemDetail": "Max Supported RAM : 16 GB Supported"
+                },
+                {
+                    "itemDetailId": 3,
+                    "itemDetail": "Battery Life : 10 hours battery life"
+                },
+                {
+                    "itemDetailId": 4,
+                    "itemDetail": "Processor Speed : 2.4 GHz CPU"
+                },
+                {
+                    "itemDetailId": 5,
+                    "itemDetail": "Installed Memory : 8 GB RAM"
+                }
+            ]
+        },
+        {
+            "itemId": 9,
+            "itemName": "Dell DC15250 ",
+            "itemDescription": "Dell DC15250 15.6, Intel Core i5-1334U Laptop .",
+            "itemImage": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQ94h7AKfcDVSeIcGxu3gYHsgfwquWmL9KIYMiA0jtvA04peswRg1B8rS94a6wuPQGaxpG1voyq9b-rUPYQ699mjVa8hMeErIOEWF79793ePRkty6z8w5mrVAY",
+            "actualPrice": "69,999",
+            "discountPrice": "65,999",
+            "category": "Laptops",
+            "fav": 0,
+            "itemDetails": [
+                {
+                    "itemDetailId": 1,
+                    "itemDetail": "Brand : Dell"
+                },
+                {
+                    "itemDetailId": 2,
+                    "itemDetail": "Processor Speed : 4.6 GHz CPU"
+                },
+                {
+                    "itemDetailId": 3,
+                    "itemDetail": "Installed Memory : 16 GB RAM"
+                },
+                {
+                    "itemDetailId": 4,
+                    "itemDetail": "Drive Capacity:  512 GB drive"
+                },
+                {
+                    "itemDetailId": 5,
+                    "itemDetail": "Biometric Security : Fingerprint Scan"
+                },
+                {
+                    "itemDetailId": 6,
+                    "itemDetail": "Available Ports : HDMI"
+                }
+            ]
+        },
+        {
+            "itemId": 10,
+            "itemName": "Acer Aspire Lite",
+            "itemDescription": "Acer Aspire Lite AMD Ryzen 3 7330U Laptop.",
+            "itemImage": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcT8_-yUVroxglGZM8VQA48kPZE2eHGfPQtUakl-aeHUy8n6-0WjIH6hHa6RuwiRIzKwglHPBfWwzhZ35PfCAe6170n1Hka1UjcYe_UmDoF2bL8FNbrj7gTBxOw",
+            "actualPrice": "49,999",
+            "discountPrice": "44,999",
+            "category": "Laptops",
+            "fav": 0,
+            "itemDetails": [
+                {
+                    "itemDetailId": 1,
+                    "itemDetail": "Brand : Acer"
+                },
+                {
+                    "itemDetailId": 2,
+                    "itemDetail": "Drive Capacity : 512 GB drive"
+                },
+                {
+                    "itemDetailId": 3,
+                    "itemDetail": "Processor Speed : 4.3 GHz CPU"
+                },
+                {
+                    "itemDetailId": 4,
+                    "itemDetail": "Battery Life : 8 hours battery life"
+                },
+                {
+                    "itemDetailId": 5,
+                    "itemDetail": "Max Supported RAM : 32 GB Supported"
+                }
+            ]
+        },
+        {
+            "itemId": 11,
+            "itemName": "HP Thin & Light Laptop",
+            "itemDescription": "HP 15 Consumer Series Laptop, Intel Core i3-1315U (13th Gen) 16GB DDR4 RAM,512GB NVMe SSD/ 15.6'' FHD Anti-Glare.",
+            "itemImage": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQiF2UkObtHKB4_6_E2cq5eJeq5ZPXIyMZvbEsIJ5Dth8gO2Ifpr7bEhCFRJNKQCO_omzbfVtzj1gaijV-BiB4-ZSiFJjmY3n9d3sAhTN8AMiCoXKDkAOWgYA",
+            "actualPrice": "58,999",
+            "discountPrice": "44,495",
+            "category": "Laptops",
+            "fav": 0,
+            "itemDetails": [
+                {
+                    "itemDetailId": 1,
+                    "itemDetail": "Brand : HP"
+                },
+                {
+                    "itemDetailId": 2,
+                    "itemDetail": "Processor : Intel"
+                },
+                {
+                    "itemDetailId": 3,
+                    "itemDetail": "RAM : 16 GB"
+                },
+                {
+                    "itemDetailId": 4,
+                    "itemDetail": "Storage : 512 GB SSD"
+                },
+                {
+                    "itemDetailId": 5,
+                    "itemDetail": "Display Highlights : Anti-glare, Flicker-free, Micro-edge"
+                }
+            ]
+        },
+        {
+            "itemId": 12,
+            "itemName": "Apple MacBook Neo",
+            "itemDescription": "The device incorporates a 13-inch Liquid Retina display for visual clarity..",
+            "itemImage": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTO-f-rs559F79XyM3RLXOZG6wCKlzvTqs7EUsqiotY1txY4BNL6QdB6bEP5m5EdUqoiuon3t4ReVe0YzwnZwALr7JKwqF77gJ1JXOZr2p7LTIrremeJoII",
+            "actualPrice": "73,390",
+            "discountPrice": "73,900",
+            "category": "Laptops",
+            "fav": 0,
+            "itemDetails": [
+                {
+                    "itemDetailId": 1,
+                    "itemDetail": "Brand : Apple"
+                },
+                {
+                    "itemDetailId": 2,
+                    "itemDetail": "Drive Capacity : 256 GB drive, 512 GB drive"
+                },
+                {
+                    "itemDetailId": 3,
+                    "itemDetail": "Screen Size : 13 in"
+                },
+                {
+                    "itemDetailId": 4,
+                    "itemDetail": "Installed Memory : 8 GB RAM"
+                },
+                {
+                    "itemDetailId": 5,
+                    "itemDetail": "Battery Life : 16 hours battery life"
+                }
+            ]
+        },
+        {
+            "itemId": 13,
+            "itemName": "Lenovo IdeaPad",
+            "itemDescription": "Lenovo IdeaPad Slim 3i 13th Gen Laptop.",
+            "itemImage": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRnx89Ktv4sRZ8Fo1JShw-0FA3qWbTfwRdNFlwiN70Iy6W36oXFhtS_6OJXmvqpzKKRbQn4qCUPs_cSFL_YMfOsjV34-yKqvjCafpu6i-uovbjlV0CKHvRB4g",
+            "actualPrice": "46,999",
+            "discountPrice": "49,999",
+            "category": "Laptops",
+            "fav": 0,
+            "itemDetails": [
+                {
+                    "itemDetailId": 1,
+                    "itemDetail": "Brand : Lenovo"
+                },
+                {
+                    "itemDetailId": 2,
+                    "itemDetail": "Processor : Intel CPU"
+                },
+                {
+                    "itemDetailId": 3,
+                    "itemDetail": "RAM : 8 GB"
+                },
+                {
+                    "itemDetailId": 4,
+                    "itemDetail": "Screen Size : 15.6 in"
+                },
+                {
+                    "itemDetailId": 5,
+                    "itemDetail": "Processor Speed : 4.5 GHz CPU"
+                }
+            ]
+        },
+        {
+            "itemId": 14,
+            "itemName": "Lenovo IdeaPad",
+            "itemDescription": "Lenovo IdeaPad Slim 3 15.6 Inches AMD Ryzen 5 7520U Laptop.",
+            "itemImage": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSdVAY7FcKWi-yFK2Flm7K8uB9h1d9M94TwjHgF2wGA9pH65ItPeEJ4WDFVLQ45tiFY1IBc1lL9eMIA_UT2xChIlqnvKYXCQArxZPjZW0d8A0N8sjfRaPVa",
+            "actualPrice": "53,999",
+            "discountPrice": "68,999",
+            "category": "Laptops",
+            "fav": 0,
+            "itemDetails": [
+                {
+                    "itemDetailId": 1,
+                    "itemDetail": "Brand : Lenovo"
+                },
+                {
+                    "itemDetailId": 2,
+                    "itemDetail": "Available Ports : USB-A, USB-C, HDMI"
+                },
+                {
+                    "itemDetailId": 3,
+                    "itemDetail": "RAM : 16  GB"
+                },
+                {
+                    "itemDetailId": 4,
+                    "itemDetail": "Drive Capacity : 512 GB drive"
+                },
+                {
+                    "itemDetailId": 5,
+                    "itemDetail": "Processor Speed : 4.3 GHz CPU"
+                }
+            ]
+        },
+        {
+            "itemId": 15,
+            "itemName": "boAt Rockerz 421",
+            "itemDescription": "boAt Rockerz 421 Bluetooth Headphones.",
+            "itemImage": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSIKzlvef49NURMfxKpiIRf5E_1Y5cP2vcXCz_OVBHA-hkrEgIRn3ooL_f5tDjmChwlX_Ai3_EvQxcjMhhoICmm7bHqMA12FhpNwmG_fjYNzH2q8L2qoT2a0g",
+            "actualPrice": "1,999",
+            "discountPrice": "1,299",
+            "category": "Headphones",
+            "fav": 0,
+            "itemDetails": [
+                {
+                    "itemDetailId": 1,
+                    "itemDetail": "Brand : boAT"
+                },
+                {
+                    "itemDetailId": 2,
+                    "itemDetail": "Max Battery Life : 40 hours"
+                },
+                {
+                    "itemDetailId": 3,
+                    "itemDetail": "Wireless Type : Bluetooth"
+                },
+                {
+                    "itemDetailId": 4,
+                    "itemDetail": "Ports and Interfaces : Type-C (Charging), AUX"
+                },
+                {
+                    "itemDetailId": 5,
+                    "itemDetail": "Weight : 200 g"
+                }
+            ]
+        },
+        {
+            "itemId": 16,
+            "itemName": "Sony WH-CH520 ",
+            "itemDescription": "Sony WH-CH520 Wireless Bluetooth Headphones.",
+            "itemImage": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQLrLWly1F7R2rhjiRR9NJSEMl4-x1DuIZb90oXAeODXdyemXrbxuAEcewlbhhzHmKuUjmf4DrzD02wVHpRoznkdxM6plD96_3IRSpKLlkwjTPMXdiJS2fdkATk",
+            "actualPrice": "2,699",
+            "discountPrice": "1,999",
+            "category": "Headphones",
+            "fav": 0,
+            "itemDetails": [
+                {
+                    "itemDetailId": 1,
+                    "itemDetail": "Brand : Sony"
+                },
+                {
+                    "itemDetailId": 2,
+                    "itemDetail": "Noise Cancelling : Yes"
+                },
+                {
+                    "itemDetailId": 3,
+                    "itemDetail": "With Microphone : Yes"
+                },
+                {
+                    "itemDetailId": 4,
+                    "itemDetail": "Colour : Black"
+                },
+                {
+                    "itemDetailId": 5,
+                    "itemDetail": "Assistant Support : Assistant Support"
+                }
+            ]
+        },
+        {
+            "itemId": 17,
+            "itemName": "Zebronics Zeb Thunder",
+            "itemDescription": "The device supports audio playback via Bluetooth, 3.5mm aux input, and MicroSD card.",
+            "itemImage": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQVekNHpyGuELwsnFAy3nt5koCC5lDQXFDmbQT_4YR-jvUCBP7b0aMH_WjdHPKVjkfslKE2anhxUh1WhVTQT-HVeVjAgfT-zUYrUEoN45-lVk_M7lGDrPew",
+            "actualPrice": "799",
+            "discountPrice": "599",
+            "category": "Headphones",
+            "fav": 0,
+            "itemDetails": [
+                {
+                    "itemDetailId": 1,
+                    "itemDetail": "Brand : Zebronics"
+                },
+                {
+                    "itemDetailId": 2,
+                    "itemDetail": "Use : Gaming"
+                },
+                {
+                    "itemDetailId": 3,
+                    "itemDetail": "Noise Cancelling : Yes"
+                },
+                {
+                    "itemDetailId": 4,
+                    "itemDetail": "Colour :  Orange"
+                },
+                {
+                    "itemDetailId": 5,
+                    "itemDetail": "Assistant Support : Google Assistant, Siri"
+                }
+            ]
+        },
+        {
+            "itemId": 18,
+            "itemName": "Major V Black ",
+            "itemDescription": "Marshall Major V On-Ear Wireless Bluetooth Headphones",
+            "itemImage": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSxBqJp2M67F5Y0YRAo552meFPiPsNpvZqVrHNZmE0-JUGc-GaXuYCWXTbOJDwU4Zo6mwiaPh64g3XwgRPozgVEOzaaQFXw7EwFdLzMCBU",
+            "actualPrice": "14,999",
+            "discountPrice": "12,999",
+            "category": "Headphones",
+            "fav": 0,
+            "itemDetails": [
+                {
+                    "itemDetailId": 1,
+                    "itemDetail": "Brand : Major"
+                },
+                {
+                    "itemDetailId": 2,
+                    "itemDetail": "Battery Highlights : Wireless charging"
+                },
+                {
+                    "itemDetailId": 3,
+                    "itemDetail": "Rechargeable Battery : Yes"
+                },
+                {
+                    "itemDetailId": 4,
+                    "itemDetail": "Noise Cancelling Microphone : Yes"
+                },
+                {
+                    "itemDetailId": 5,
+                    "itemDetail": "Highlighted Uses : Travel"
+                }
+            ]
+        },
+        {
+            "itemId": 19,
+            "itemName": "Noise ",
+            "itemDescription": "Noise Two Wireless Headphones.",
+            "itemImage": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRP_L4Rg-3Nzwi1hTiXXozRRUo-SY3DnOJ5sYkjWvwJiTkS02J76X9_VBxLPpIY2UPXT5U5BfcsGBpoSeyb4rvBBhB9n2nNjbW6ERVbTnHHyAB5mLXpDwRRQK0",
+            "actualPrice": "999",
+            "discountPrice": "1,899",
+            "category": "Headphones",
+            "fav": 0,
+            "itemDetails": [
+                {
+                    "itemDetailId": 1,
+                    "itemDetail": "Brand : Noise"
+                },
+                {
+                    "itemDetailId": 2,
+                    "itemDetail": " Type: Headphones"
+                },
+                {
+                    "itemDetailId": 3,
+                    "itemDetail": "Use : Gaming"
+                },
+                {
+                    "itemDetailId": 4,
+                    "itemDetail": "With Microphone : Yes"
+                },
+                {
+                    "itemDetailId": 5,
+                    "itemDetail": "Colour : Bold Black"
+                }
+            ]
+        },
+        {
+            "itemId": 20,
+            "itemName": "boAt Rockerz 480",
+            "itemDescription": "boAt Rockerz 480 Wireless Headphone.",
+            "itemImage": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRmf_jBIebGCRGl76bwQEagHiza9keF4-TwnGazJdXrSVppXD8p-szVCXsHz7tdDV1yGL1G68OohJo-RvAD28Rnp5qlXB0avpl_edH87LbFdAVjPiX7KpUuFLA",
+            "actualPrice": "1,799",
+            "discountPrice": "1,199",
+            "category": "Headphones",
+            "fav": 0,
+            "itemDetails": [
+                {
+                    "itemDetailId": 1,
+                    "itemDetail": "Brand : boAT"
+                },
+                {
+                    "itemDetailId": 2,
+                    "itemDetail": " : Noise Cancelling : Yes"
+                },
+                {
+                    "itemDetailId": 3,
+                    "itemDetail": "With Microphone : Yes"
+                },
+                {
+                    "itemDetailId": 4,
+                    "itemDetail": "Colour : White"
+                },
+                {
+                    "itemDetailId": 5,
+                    "itemDetail": "Assistant Support : Google Assistant, Siri"
+                }
+            ]
+        },
+        {
+            "itemId": 21,
+            "itemName": "Sony WH-CH520",
+            "itemDescription": "Sony WH-CH520 Wireless Bluetooth Headphones On Ear with Mic.",
+            "itemImage": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQn19p-0YK9CDr-IcDP6j_H7GgyymfwYcngJ2l2XMLHHNJVcpqlzTg2Ovy2dc0vhPcTvZs-GJliLmmCTD3jy6I9cHOaEJsPDBa1chL5uFgohcIHlenwMJsYNw",
+            "actualPrice": "3,910",
+            "discountPrice": "4,490",
+            "category": "Headphones",
+            "fav": 0,
+            "itemDetails": [
+                {
+                    "itemDetailId": 1,
+                    "itemDetail": "Brand : Sony"
+                },
+                {
+                    "itemDetailId": 2,
+                    "itemDetail": " : Noise Cancelling : Yes"
+                },
+                {
+                    "itemDetailId": 3,
+                    "itemDetail": "With Microphone : Yes"
+                },
+                {
+                    "itemDetailId": 4,
+                    "itemDetail": "Included Accessories : USB Cable"
+                },
+                {
+                    "itemDetailId": 5,
+                    "itemDetail": "Assistant Support : Google Assistant, Siri"
+                }
+            ]
+        },
+        {
+            "itemId": 22,
+            "itemName": "boAt Wave Call 3 Smartwatch",
+            "itemDescription": "Boat Wave Call 3 Smartwatch 1.83” HD Display with Animated Watch Faces.",
+            "itemImage": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTv7aySCAKo8fczNMcEu4R38ACnBJyxvHkSvDSGqezziMd0Ly6F-2ZsRp25QUeECwptIXVldJVS5-xPIfN_3ZdKHMUJl7HgADkklkJ6fNc9z2JD1IhmeCwXMwc",
+            "actualPrice": "1,399",
+            "discountPrice": "999",
+            "category": "Smart Watches",
+            "fav": 0,
+            "itemDetails": [
+                {
+                    "itemDetailId": 1,
+                    "itemDetail": "Brand : boAT"
+                },
+                {
+                    "itemDetailId": 2,
+                    "itemDetail": " : Connectivity Technology: Bluetooth"
+                },
+                {
+                    "itemDetailId": 3,
+                    "itemDetail": "Wireless Communication Standard : Bluetooth"
+                },
+                {
+                    "itemDetailId": 4,
+                    "itemDetail": "Shape : Rectangular"
+                },
+                {
+                    "itemDetailId": 5,
+                    "itemDetail": "Battery Cell Composition : Lithium Ion"
+                }
+            ]
+        },
+        {
+            "itemId": 23,
+            "itemName": "Apple Watch Series 11",
+            "itemDescription": "Apple Watch Series 11 GPS + Cellular 46mm Aluminium Case.",
+            "itemImage": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcS1FN5Kx5Ai3xjwK51i2vl44ytng6qwaohWmKM296yaOD7LcLh-nVjvxd-sqBKtgwD2VUk8zMVu-HCDkvJ2GRxNa45rL8aZIQ",
+            "actualPrice": "40,999",
+            "discountPrice": "56,960",
+            "category": "Smart Watches",
+            "fav": 0,
+            "itemDetails": [
+                {
+                    "itemDetailId": 1,
+                    "itemDetail": "Brand : Apple"
+                },
+                {
+                    "itemDetailId": 2,
+                    "itemDetail": " : Connectivity Technology: Bluetooth"
+                },
+                {
+                    "itemDetailId": 3,
+                    "itemDetail": "Wireless Communication Standard : Bluetooth"
+                },
+                {
+                    "itemDetailId": 4,
+                    "itemDetail": "Shape : Rectangular"
+                },
+                {
+                    "itemDetailId": 5,
+                    "itemDetail": "Battery Cell Composition : Lithium Ion"
+                }
+            ]
+        },
+        {
+            "itemId": 24,
+            "itemName": "Noise Endeavour",
+            "itemDescription": "Noise Endeavour 2 Smartwatch.",
+            "itemImage": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcS7hn2rbOuham12ucs_zTg5yfbQwCt9qSIHPdLtmQuGPvJmqKOkLz4SxBW5ckkomYQR2AC0cZfxkf7vN8pTUAGUUDcuqSUCF5DtS1DMUmKK__igFNONdaVi",
+            "actualPrice": "5,299",
+            "discountPrice": "4,514",
+            "category": "Smart Watches",
+            "fav": 0,
+            "itemDetails": [
+                {
+                    "itemDetailId": 1,
+                    "itemDetail": "Brand : Noise"
+                },
+                {
+                    "itemDetailId": 2,
+                    "itemDetail": " : Connectivity Technology: Bluetooth"
+                },
+                {
+                    "itemDetailId": 3,
+                    "itemDetail": "Wireless Communication Standard : Bluetooth"
+                },
+                {
+                    "itemDetailId": 4,
+                    "itemDetail": "Shape : Rectangular"
+                },
+                {
+                    "itemDetailId": 5,
+                    "itemDetail": "Battery Cell Composition : Lithium Ion"
+                }
+            ]
+        },
+        {
+            "itemId": 25,
+            "itemName": "Xiaomi Redmi Watch",
+            "itemDescription": "Xiaomi Redmi Watch 5 Active Smartwatch.",
+            "itemImage": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQx7sry8KeC_y6rdPLGy_mxAYUTCOGvh0VNR2PRAq9IHK1WIwAnDl462fE-aM1wZkcogJBS7XSCo6sxCNl7ehPca14sQEX3",
+            "actualPrice": "1,299",
+            "discountPrice": "999",
+            "category": "Smart Watches",
+            "fav": 0,
+            "itemDetails": [
+                {
+                    "itemDetailId": 1,
+                    "itemDetail": "Brand : Xiaomi"
+                },
+                {
+                    "itemDetailId": 2,
+                    "itemDetail": " : Connectivity Technology: Bluetooth"
+                },
+                {
+                    "itemDetailId": 3,
+                    "itemDetail": "Wireless Communication Standard : Bluetooth"
+                },
+                {
+                    "itemDetailId": 4,
+                    "itemDetail": "Shape : Rectangular"
+                },
+                {
+                    "itemDetailId": 5,
+                    "itemDetail": "Battery Cell Composition : Lithium Ion"
+                }
+            ]
+        },
+        {
+            "itemId": 26,
+            "itemName": "Fastrack Astor",
+            "itemDescription": "Fastrack Astor FR2 Pro Smart Watch.",
+            "itemImage": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTXm9tAaXgMXqiFzhGbusrQeyVNIX3B-HTueR9RuVPE5hiee6OhW4u_I91LUZdm27tvpWPyjvVMefIvvtMW8wtz9JQKukDE1t_gZPZkuLYBhabjTMN2-l5G",
+            "actualPrice": "2,799",
+            "discountPrice": "2,299",
+            "category": "Smart Watches",
+            "fav": 0,
+            "itemDetails": [
+                {
+                    "itemDetailId": 1,
+                    "itemDetail": "Brand : Fastrack"
+                },
+                {
+                    "itemDetailId": 2,
+                    "itemDetail": " : Connectivity Technology: Bluetooth"
+                },
+                {
+                    "itemDetailId": 3,
+                    "itemDetail": "Wireless Communication Standard : Bluetooth"
+                },
+                {
+                    "itemDetailId": 4,
+                    "itemDetail": "Shape : Rectangular"
+                },
+                {
+                    "itemDetailId": 5,
+                    "itemDetail": "Battery Cell Composition : Lithium Ion"
+                }
+            ]
+        },
+        {
+            "itemId": 27,
+            "itemName": "Fire-Boltt",
+            "itemDescription": "Fire-Boltt INVINCIBLE Smartwatch.",
+            "itemImage": "https://m.media-amazon.com/images/I/61LxMQkLk3L.jpg",
+            "actualPrice": "1,599",
+            "discountPrice": "1,260",
+            "category": "Smart Watches",
+            "fav": 0,
+            "itemDetails": [
+                {
+                    "itemDetailId": 1,
+                    "itemDetail": "Brand : Fire-Boltt"
+                },
+                {
+                    "itemDetailId": 2,
+                    "itemDetail": " : Connectivity Technology: Bluetooth"
+                },
+                {
+                    "itemDetailId": 3,
+                    "itemDetail": "Wireless Communication Standard : Bluetooth"
+                },
+                {
+                    "itemDetailId": 4,
+                    "itemDetail": "Shape : Rectangular"
+                },
+                {
+                    "itemDetailId": 5,
+                    "itemDetail": "Battery Cell Composition : Lithium Ion"
+                }
+            ]
+        },
+        {
+            "itemId": 28,
+            "itemName": "Samsung",
+            "itemDescription": "Samsung Galaxy Watch Ultra 2025 LTE.",
+            "itemImage": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQgKT-GisVGivypQHqBx0__oAO8uKh5CQDq7hMhH2gz6R5Okzvy5go8LvQjVa_kD1_tqdhZ1Ujo3jZQh0BZSWbxU-IuYwR4Dap9U7TV29cPA4ZiOct02ISurg",
+            "actualPrice": "36,999",
+            "discountPrice": "32,960",
+            "category": "Smart Watches",
+            "fav": 0,
+            "itemDetails": [
+                {
+                    "itemDetailId": 1,
+                    "itemDetail": "Brand : Samsung Galaxy"
+                },
+                {
+                    "itemDetailId": 2,
+                    "itemDetail": " : Connectivity Technology: Bluetooth"
+                },
+                {
+                    "itemDetailId": 3,
+                    "itemDetail": "Wireless Communication Standard : Bluetooth"
+                },
+                {
+                    "itemDetailId": 4,
+                    "itemDetail": "Shape : Rectangular"
+                },
+                {
+                    "itemDetailId": 5,
+                    "itemDetail": "Battery Cell Composition : Lithium Ion"
+                }
+            ]
+        },
+        {
+            "itemId": 29,
+            "itemName": "Hotstyle Men's",
+            "itemDescription": "Hotstyle Men's Trendy Stylish Loafers.",
+            "itemImage": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTOeG3k19uSuMdCZmcVcg4xsuq-HG1LM9rUhadQ9xFEKvwAkXBy8BzjTkg-aBQvXIdMVA-bsdijlvk-3RYRoON03a861onB8m5M_1qSv5FVpceJopmLkWcwHA",
+            "actualPrice": "999",
+            "discountPrice": "499",
+            "category": "Shoes",
+            "fav": 0,
+            "itemDetails": [
+                {
+                    "itemDetailId": 1,
+                    "itemDetail": "Brand : Hotstyle"
+                },
+                {
+                    "itemDetailId": 2,
+                    "itemDetail": " : Color Shade : Dark"
+                },
+                {
+                    "itemDetailId": 3,
+                    "itemDetail": "Model name : Trendy & Stylish"
+                },
+                {
+                    "itemDetailId": 4,
+                    "itemDetail": "Inner material : Mesh"
+                },
+                {
+                    "itemDetailId": 5,
+                    "itemDetail": "Color : White"
+                }
+            ]
+        },
+        {
+            "itemId": 30,
+            "itemName": "Sport + Fashion",
+            "itemDescription": "House Of Common Men's Stylish & Comfortable Running Shoes",
+            "itemImage": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcR60xnVTftJJ0O_wQLZNvj0HlVzijjUUQ2UgBQJbMJ3IJTtfg1gilxusqbyXRtXeqojO0-h0qbPbprEGZ8lZxmRUj1lsWwRx26-nFEDjpOBtMWrXaeQwAPe",
+            "actualPrice": "259",
+            "discountPrice": "199",
+            "category": "Shoes",
+            "fav": 0,
+            "itemDetails": [
+                {
+                    "itemDetailId": 1,
+                    "itemDetail": "Brand : Sport + Fashion"
+                },
+                {
+                    "itemDetailId": 2,
+                    "itemDetail": " : Color Shade : Dark"
+                },
+                {
+                    "itemDetailId": 3,
+                    "itemDetail": "Model name : Trendy & Stylish"
+                },
+                {
+                    "itemDetailId": 4,
+                    "itemDetail": "Inner material : Mesh"
+                },
+                {
+                    "itemDetailId": 5,
+                    "itemDetail": "Colour : Black"
+                }
+            ]
+        },
+        {
+            "itemId": 31,
+            "itemName": "Campus Men's",
+            "itemDescription": "Campus Men's Wells Running Shoes.",
+            "itemImage": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcT5ZQh8_icm2AYhATTgKentgtnHve8RGCZiUV7oh6qILTXVPLCoYO788yi74aihst12NU1T8XayG4CdJKJ0wl88Yglj83tF5CSYGKXUUEfIjMJGFpKwTxvj9UQ",
+            "actualPrice": "899",
+            "discountPrice": "699",
+            "category": "Shoes",
+            "fav": 0,
+            "itemDetails": [
+                {
+                    "itemDetailId": 1,
+                    "itemDetail": "Brand : Campus"
+                },
+                {
+                    "itemDetailId": 2,
+                    "itemDetail": " : Color Shade : Dark"
+                },
+                {
+                    "itemDetailId": 3,
+                    "itemDetail": "Model name : Trendy & Stylish"
+                },
+                {
+                    "itemDetailId": 4,
+                    "itemDetail": "Inner material : Mesh"
+                },
+                {
+                    "itemDetailId": 5,
+                    "itemDetail": "Colour : Black"
+                }
+            ]
+        },
+        {
+            "itemId": 32,
+            "itemName": "Manyavar Men's",
+            "itemDescription": "Manyavar Men's Ethnic Loafers.",
+            "itemImage": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQM0ST8kaIi50ulF10KMUW7wuGxpoA8Gq2JF6W8WOM63kAz3dP5IvgQPNYwTVwtmHL7F3GiYQkJtdRt8kGNyJkF8iizEOQxnxjn1ireh_Wi0UkR__ckNf0o",
+            "actualPrice": "2,399",
+            "discountPrice": "1,999",
+            "category": "Shoes",
+            "fav": 0,
+            "itemDetails": [
+                {
+                    "itemDetailId": 1,
+                    "itemDetail": "Brand : Manyavar"
+                },
+                {
+                    "itemDetailId": 2,
+                    "itemDetail": " : Color Shade : Dark"
+                },
+                {
+                    "itemDetailId": 3,
+                    "itemDetail": "Model name : Trendy & Stylish"
+                },
+                {
+                    "itemDetailId": 4,
+                    "itemDetail": "Inner material : Mesh"
+                },
+                {
+                    "itemDetailId": 5,
+                    "itemDetail": "Color : Blue"
+                }
+            ]
+        },
+        {
+            "itemId": 33,
+            "itemName": "Cruiser Men's",
+            "itemDescription": "Cruiser Men's Lightweight Comfortable Stylish Lace-Up Casual Footwear.",
+            "itemImage": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRMIYZDRyZWvDbzvzEBO_MEMBbn3Eo-J8hky2YmBQGgfI0yh37uoKSP5x5lyeKHQbT-hkBvUlaAuv1dLwLmfQmJP_41yY3G9xlYAiNxObkWbI0jIW34oaNv",
+            "actualPrice": "999",
+            "discountPrice": "599",
+            "category": "Shoes",
+            "fav": 0,
+            "itemDetails": [
+                {
+                    "itemDetailId": 1,
+                    "itemDetail": "Brand : Cruiser"
+                },
+                {
+                    "itemDetailId": 2,
+                    "itemDetail": " : Color Shade : Dark"
+                },
+                {
+                    "itemDetailId": 3,
+                    "itemDetail": "Model name : Trendy & Stylish"
+                },
+                {
+                    "itemDetailId": 4,
+                    "itemDetail": "Inner material : Mesh"
+                },
+                {
+                    "itemDetailId": 5,
+                    "itemDetail": "Color : White"
+                }
+            ]
+        },
+        {
+            "itemId": 34,
+            "itemName": "Asian Men's",
+            "itemDescription": "Asian Men's Oxygen-01 Running Shoes.",
+            "itemImage": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQ72RtQrhogOOwV5v06sMKmrmEIwK99mbpsurovVs2BslP8PqHFprkYVZQYtNBGPeONVDT8xrjiGhPw--_weUvsMrmTEKBaWMFbnO7JAc4TvQSUQYpdOuid",
+            "actualPrice": "780",
+            "discountPrice": "599",
+            "category": "Shoes",
+            "fav": 0,
+            "itemDetails": [
+                {
+                    "itemDetailId": 1,
+                    "itemDetail": "Brand : Asian"
+                },
+                {
+                    "itemDetailId": 2,
+                    "itemDetail": " : Color Shade : Dark"
+                },
+                {
+                    "itemDetailId": 3,
+                    "itemDetail": "Model name : Trendy & Stylish"
+                },
+                {
+                    "itemDetailId": 4,
+                    "itemDetail": "Inner material : Mesh"
+                },
+                {
+                    "itemDetailId": 5,
+                    "itemDetail": "Colour : Black"
+                }
+            ]
+        },
+        {
+            "itemId": 35,
+            "itemName": "Sparx Men's",
+            "itemDescription": "Sparx Men's Mesh Running Shoes.",
+            "itemImage": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTFvXtR7V2V1XDWy9thp4BB6VcXKcSv8VHSz64oZvM3Sxuqpyv7V_GQKfrGberekE6ZAbFd8pXCWGdmNXXybC_LzahEeIZe_8ttUyNOjVstUZrLusZ3It74Og",
+            "actualPrice": "999",
+            "discountPrice": "499",
+            "category": "Shoes",
+            "fav": 0,
+            "itemDetails": [
+                {
+                    "itemDetailId": 1,
+                    "itemDetail": "Brand : Sparx"
+                },
+                {
+                    "itemDetailId": 2,
+                    "itemDetail": " : Color Shade : Dark"
+                },
+                {
+                    "itemDetailId": 3,
+                    "itemDetail": "Model name : Trendy & Stylish"
+                },
+                {
+                    "itemDetailId": 4,
+                    "itemDetail": "Inner material : Mesh"
+                },
+                {
+                    "itemDetailId": 5,
+                    "itemDetail": "Colour : Black"
+                }
+            ]
+        },
+        {
+            "itemId": 36,
+            "itemName": "BULLMER Men's",
+            "itemDescription": "BULLMER Men's Trendy Shirt & Pants Set.",
+            "itemImage": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQu8bH2dZkNwoYUsEr3CNgFe8eQachtvZg4_rjguUCygxG_WLkng4H2dxCPLl8-t-t3CuIDts00VDLkPRQi0-1QEElI4uDSAzDuEnD36NGZjbS6CWxinZQQtA",
+            "actualPrice": "999",
+            "discountPrice": "499",
+            "category": "Men's Clothing",
+            "fav": 0,
+            "itemDetails": [
+                {
+                    "itemDetailId": 1,
+                    "itemDetail": "Brand : Bullmer"
+                },
+                {
+                    "itemDetailId": 2,
+                    "itemDetail": " : Material type : Cotton Blend"
+                },
+                {
+                    "itemDetailId": 3,
+                    "itemDetail": "Fit type : Regular"
+                },
+                {
+                    "itemDetailId": 4,
+                    "itemDetail": "Style : Mens Co-ords"
+                },
+                {
+                    "itemDetailId": 5,
+                    "itemDetail": "Country of Origin : India"
+                }
+            ]
+        },
+        {
+            "itemId": 37,
+            "itemName": "Buda Jeans Co Men",
+            "itemDescription": "Buda Jeans Co Men Embroidered Regular Fit Shirt with Cuffed Sleeves For Men.",
+            "itemImage": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcT_Sm5l5Q9GGMi8Yjv0jaIBE-ckT3D1Jx9YnnM0I0qid-O-tR36KduYkGd_BJpywE4qOb9j42Ob7amHo9FAAAJMYjHbNeJ_teGh1XOFfQY",
+            "actualPrice": "890",
+            "discountPrice": "959",
+            "category": "Men's Clothing",
+            "fav": 0,
+            "itemDetails": [
+                {
+                    "itemDetailId": 1,
+                    "itemDetail": "Brand : Buda Jeans"
+                },
+                {
+                    "itemDetailId": 2,
+                    "itemDetail": " : Material type : Cotton Blend"
+                },
+                {
+                    "itemDetailId": 3,
+                    "itemDetail": "Fit type : Regular"
+                },
+                {
+                    "itemDetailId": 4,
+                    "itemDetail": "Style : Mens Co-ords"
+                },
+                {
+                    "itemDetailId": 5,
+                    "itemDetail": "Country of Origin : India"
+                }
+            ]
+        },
+        {
+            "itemId": 38,
+            "itemName": "Lymio Men Shirt",
+            "itemDescription": "Lymio Men Shirt | Rib Design Shirt for Men",
+            "itemImage": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQXe7izSLPatzjEjRgL6cg__liQ5toG21j_G6IKMI05zLqBEi7-lyED8GN1HK3uRpbgZFzihwUuizZi7LOem8lHVgItqR48tMAg4yiWFSX039a_3oa30PV_",
+            "actualPrice": "489",
+            "discountPrice": "359",
+            "category": "Men's Clothing",
+            "fav": 0,
+            "itemDetails": [
+                {
+                    "itemDetailId": 1,
+                    "itemDetail": "Brand : Lymio"
+                },
+                {
+                    "itemDetailId": 2,
+                    "itemDetail": " : Material type : Cotton Blend"
+                },
+                {
+                    "itemDetailId": 3,
+                    "itemDetail": "Fit type : Regular"
+                },
+                {
+                    "itemDetailId": 4,
+                    "itemDetail": "Style : Mens Co-ords"
+                },
+                {
+                    "itemDetailId": 5,
+                    "itemDetail": "Country of Origin : India"
+                }
+            ]
+        },
+        {
+            "itemId": 39,
+            "itemName": "BULLMER Men's",
+            "itemDescription": "Bullmer Men's Geometric Print Regular Fit Shirt & Pants Set",
+            "itemImage": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQu8bH2dZkNwoYUsEr3CNgFe8eQachtvZg4_rjguUCygxG_WLkng4H2dxCPLl8-t-t3CuIDts00VDLkPRQi0-1QEElI4uDSAzDuEnD36NGZjbS6CWxinZQQtA",
+            "actualPrice": "959",
+            "discountPrice": "599",
+            "category": "Men's Clothing",
+            "fav": 0,
+            "itemDetails": [
+                {
+                    "itemDetailId": 1,
+                    "itemDetail": "Brand : Bullmer"
+                },
+                {
+                    "itemDetailId": 2,
+                    "itemDetail": " : Material type : Cotton Blend"
+                },
+                {
+                    "itemDetailId": 3,
+                    "itemDetail": "Fit type : Regular"
+                },
+                {
+                    "itemDetailId": 4,
+                    "itemDetail": "Style : Mens Co-ords"
+                },
+                {
+                    "itemDetailId": 5,
+                    "itemDetail": "Country of Origin : India"
+                }
+            ]
+        },
+        {
+            "itemId": 40,
+            "itemName": "Snitch Men's",
+            "itemDescription": "Snitch Men's V Neck Stretch Regular Fit T-Shirt Regular Fit",
+            "itemImage": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRaBW8LfO8CGIU1yCTsGhTFKpmfYs9GHgGvsBuW-CA6NZZkTGOa7RpPjmXIw2DEp2IuUxzFUn6v7xNFtqybQcEfhTtzao9COw",
+            "actualPrice": "532",
+            "discountPrice": "459",
+            "category": "Men's Clothing",
+            "fav": 0,
+            "itemDetails": [
+                {
+                    "itemDetailId": 1,
+                    "itemDetail": "Brand : Snitch"
+                },
+                {
+                    "itemDetailId": 2,
+                    "itemDetail": " : Material type : Cotton Blend"
+                },
+                {
+                    "itemDetailId": 3,
+                    "itemDetail": "Fit type : Regular"
+                },
+                {
+                    "itemDetailId": 4,
+                    "itemDetail": "Style : Mens Co-ords"
+                },
+                {
+                    "itemDetailId": 5,
+                    "itemDetail": "Country of Origin : India"
+                }
+            ]
+        },
+        {
+            "itemId": 41,
+            "itemName": "Allen Solly Men",
+            "itemDescription": "Allen Solly Men Solid Polo Neck.",
+            "itemImage": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQNv79CHm7AbydMF5rPiZ0rsZRUxFq5fiPwQ9LHN_ftmUSjUlBEkPLxn3g-f3nf33ZZmG8XtwXDf7DOHzkmhMdUF3VrAaCzyREYX03T7atEGjuFcx75RnUj",
+            "actualPrice": "899",
+            "discountPrice": "799",
+            "category": "Men's Clothing",
+            "fav": 0,
+            "itemDetails": [
+                {
+                    "itemDetailId": 1,
+                    "itemDetail": "Brand : Allen"
+                },
+                {
+                    "itemDetailId": 2,
+                    "itemDetail": " : Material type : Cotton Blend"
+                },
+                {
+                    "itemDetailId": 3,
+                    "itemDetail": "Fit type : Regular"
+                },
+                {
+                    "itemDetailId": 4,
+                    "itemDetail": "Style : Mens Co-ords"
+                },
+                {
+                    "itemDetailId": 5,
+                    "itemDetail": "Country of Origin : India"
+                }
+            ]
+        },
+        {
+            "itemId": 42,
+            "itemName": "Men's Animal",
+            "itemDescription": "Men's Animal Print Casual Shirt.",
+            "itemImage": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQ2kFwoqLzo3oybsprlW-cLBWAPZ7yOTIf5nKDiDrqkuQd_dxtKTPSCAWCrdM_uytyS7CBaX2hDs0iLdfxYHBBaMF5KOSGSlhtv5lZklss",
+            "actualPrice": "499",
+            "discountPrice": "350",
+            "category": "Men's Clothing",
+            "fav": 0,
+            "itemDetails": [
+                {
+                    "itemDetailId": 1,
+                    "itemDetail": "Brand : Men's Animal"
+                },
+                {
+                    "itemDetailId": 2,
+                    "itemDetail": " : Material type : Cotton Blend"
+                },
+                {
+                    "itemDetailId": 3,
+                    "itemDetail": "Fit type : Regular"
+                },
+                {
+                    "itemDetailId": 4,
+                    "itemDetail": "Style : Mens Co-ords"
+                },
+                {
+                    "itemDetailId": 5,
+                    "itemDetail": "Country of Origin : India"
+                }
+            ]
+        },
+        {
+            "itemId": 43,
+            "itemName": "Leriya Fashion Women's Korean",
+            "itemDescription": "Leriya Fashion Women's Korean Style Oversized Long Sleeve Button Down Shirt.",
+            "itemImage": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQQ9pabaLuKbDS4Uj23G071VeV637TLLo_uxNNN6B7fKC7mVFcjm4-ktN8js3CdNTQFEv2usQ4na7sdjB-CwsJi19d0Vm_yuYy_9uC5EQXe5XdW7j-DbBJl",
+            "actualPrice": "499",
+            "discountPrice": "350",
+            "category": "Women's Clothing",
+            "fav": 0,
+            "itemDetails": [
+                {
+                    "itemDetailId": 1,
+                    "itemDetail": "Brand : Leriya"
+                },
+                {
+                    "itemDetailId": 2,
+                    "itemDetail": " : Material type : Cotton Blend"
+                },
+                {
+                    "itemDetailId": 3,
+                    "itemDetail": "Fit type : Regular"
+                },
+                {
+                    "itemDetailId": 4,
+                    "itemDetail": "Style : Mens Co-ords"
+                },
+                {
+                    "itemDetailId": 5,
+                    "itemDetail": "Country of Origin : India"
+                }
+            ]
+        },
+        {
+            "itemId": 44,
+            "itemName": "Ladies H&M",
+            "itemDescription": "Ladies H&M Cowl-neck jersey top.",
+            "itemImage": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRbT71k3_g3tdjtMKsZ16H0gwMhXQFWfbUfEgelyeDkkUkNYLRC9uOYj7d4Jr4yKC3L2im41S9LA297go9Jp5eoeGYJ705DdqA3YEHXE-KQW5AwOKVjypnW3g",
+            "actualPrice": "799",
+            "discountPrice": "599",
+            "category": "Women's Clothing",
+            "fav": 0,
+            "itemDetails": [
+                {
+                    "itemDetailId": 1,
+                    "itemDetail": "Brand : Ladies"
+                },
+                {
+                    "itemDetailId": 2,
+                    "itemDetail": " : Material type : Cotton Blend"
+                },
+                {
+                    "itemDetailId": 3,
+                    "itemDetail": "Fit type : Regular"
+                },
+                {
+                    "itemDetailId": 4,
+                    "itemDetail": "Style : Mens Co-ords"
+                },
+                {
+                    "itemDetailId": 5,
+                    "itemDetail": "Country of Origin : India"
+                }
+            ]
+        },
+        {
+            "itemId": 45,
+            "itemName": "Shree Women's",
+            "itemDescription": "Shree Women's Embroidered Yarn Dyed Kurta.",
+            "itemImage": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQAmGgwL8JGAoNByEyBHn7fs3LpWITqNBTexbI8xgchzB4Q-yFWZtUKMz9yc6FjX2UfwE1rsSZRU093yXQRSkAcGDyg7p7Jag",
+            "actualPrice": "1,299",
+            "discountPrice": "999",
+            "category": "Women's Clothing",
+            "fav": 0,
+            "itemDetails": [
+                {
+                    "itemDetailId": 1,
+                    "itemDetail": "Brand : Shree"
+                },
+                {
+                    "itemDetailId": 2,
+                    "itemDetail": " : Material type : Cotton Blend"
+                },
+                {
+                    "itemDetailId": 3,
+                    "itemDetail": "Fit type : Regular"
+                },
+                {
+                    "itemDetailId": 4,
+                    "itemDetail": "Style : Mens Co-ords"
+                },
+                {
+                    "itemDetailId": 5,
+                    "itemDetail": "Country of Origin : India"
+                }
+            ]
+        },
+        {
+            "itemId": 46,
+            "itemName": "KARMA APPAREL Women’s",
+            "itemDescription": "KARMA APPAREL Women’s Stylish Puff Sleeve Ruched Bow Front Top Trendy Casual Summer Wear for Girls.",
+            "itemImage": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQXudlcPUkLUJSbYrT0cAzExhJoqElHh6SDx94mpwcgyIzjSfID1GAvyKUGQ9TnqjcAxbbjp7hUWMenbokHvzijX2n4_Ca9Z1XHXE75g4c",
+            "actualPrice": "499",
+            "discountPrice": "350",
+            "category": "Women's Clothing",
+            "fav": 0,
+            "itemDetails": [
+                {
+                    "itemDetailId": 1,
+                    "itemDetail": "Brand : KARMA APPAREL"
+                },
+                {
+                    "itemDetailId": 2,
+                    "itemDetail": " : Material type : Cotton Blend"
+                },
+                {
+                    "itemDetailId": 3,
+                    "itemDetail": "Fit type : Regular"
+                },
+                {
+                    "itemDetailId": 4,
+                    "itemDetail": "Style : Mens Co-ords"
+                },
+                {
+                    "itemDetailId": 5,
+                    "itemDetail": "Country of Origin : India"
+                }
+            ]
+        },
+        {
+            "itemId": 47,
+            "itemName": "H&M Ladies",
+            "itemDescription": "H&M Ladies Layered-look T-shirt.",
+            "itemImage": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRk3lFzTGaUc-FYJcQrhCr0dKVwdnUueoYNSVNBuZDke7NZ48Nm4INtgBOfL12-zAnmvSh5e_77eYxJS_ymRq8J2uiWFSwTyTvlI8nSsoRFBr5XJ4wvkg5GFg",
+            "actualPrice": "350",
+            "discountPrice": "299",
+            "category": "Women's Clothing",
+            "fav": 0,
+            "itemDetails": [
+                {
+                    "itemDetailId": 1,
+                    "itemDetail": "Brand : H&M Ladies"
+                },
+                {
+                    "itemDetailId": 2,
+                    "itemDetail": " : Material type : Cotton Blend"
+                },
+                {
+                    "itemDetailId": 3,
+                    "itemDetail": "Fit type : Regular"
+                },
+                {
+                    "itemDetailId": 4,
+                    "itemDetail": "Style : Mens Co-ords"
+                },
+                {
+                    "itemDetailId": 5,
+                    "itemDetail": "Country of Origin : India"
+                }
+            ]
+        },
+        {
+            "itemId": 48,
+            "itemName": "Ladies H&M",
+            "itemDescription": "Ladies H&M Smocked strappy dress",
+            "itemImage": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSqY23FXO4cPfqUu-qhOjO2OcbVuCo6L7J6JaO-woIAG6gvT3suf2yOb3itazxaYNzxHzmNW_WyGI3Bpsb6ac1959JXpsGLIZN2y5q9dCCgvPU5WsAvM6mS85A",
+            "actualPrice": "350",
+            "discountPrice": "299",
+            "category": "Women's Clothing",
+            "fav": 0,
+            "itemDetails": [
+                {
+                    "itemDetailId": 1,
+                    "itemDetail": "Brand : Ladies"
+                },
+                {
+                    "itemDetailId": 2,
+                    "itemDetail": " : Material type : Cotton Blend"
+                },
+                {
+                    "itemDetailId": 3,
+                    "itemDetail": "Fit type : Regular"
+                },
+                {
+                    "itemDetailId": 4,
+                    "itemDetail": "Style : Mens Co-ords"
+                },
+                {
+                    "itemDetailId": 5,
+                    "itemDetail": "Country of Origin : India"
+                }
+            ]
+        },
+        {
+            "itemId": 49,
+            "itemName": "Tokyo Talkies Women's",
+            "itemDescription": "Tokyo Talkies Women's Multicolor Skater Dress.",
+            "itemImage": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSntrbZUqwrzSFzOE8M3PYtAPsY-L8r5NNmlDLStMvG0mJ_hKSDL_KomZCb3dNE-oGYx6Zi33UClwNmMRKF8g85yBY9abIPg7jvTAzoQdY",
+            "actualPrice": "350",
+            "discountPrice": "299",
+            "category": "Women's Clothing",
+            "fav": 0,
+            "itemDetails": [
+                {
+                    "itemDetailId": 1,
+                    "itemDetail": "Brand : Tokyo Talkies"
+                },
+                {
+                    "itemDetailId": 2,
+                    "itemDetail": " : Material type : Cotton Blend"
+                },
+                {
+                    "itemDetailId": 3,
+                    "itemDetail": "Fit type : Regular"
+                },
+                {
+                    "itemDetailId": 4,
+                    "itemDetail": "Style : Mens Co-ords"
+                },
+                {
+                    "itemDetailId": 5,
+                    "itemDetail": "Country of Origin : India"
+                }
+            ]
+        },
+        {
+            "itemId": 50,
+            "itemName": "IKEA SONGESAND Bedroom",
+            "itemDescription": "IKEA SONGESAND Bedroom Furniture Set of 5.",
+            "itemImage": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQ8eXHbFH931JDfxwo-W4qu6pRY_8-RLf2WpW8wCNt6RmnkEEC050Uv1ft2oUfvzmFcVITf5H-QIlSTSbqwf49NFBvyQXOQFyNfeV1VhjxiZJBPJQbdOiQ4Rw",
+            "actualPrice": "57,799",
+            "discountPrice": "55,999",
+            "category": "Furniture",
+            "fav": 0,
+            "itemDetails": [
+                {
+                    "itemDetailId": 1,
+                    "itemDetail": "Brand : IKEA"
+                },
+                {
+                    "itemDetailId": 2,
+                    "itemDetail": " :  Included Components : Wardrobe, Bed frame, Chest of drawers"
+                },
+                {
+                    "itemDetailId": 3,
+                    "itemDetail": "Set Quantity : 5-piece"
+                },
+                {
+                    "itemDetailId": 4,
+                    "itemDetail": "Primary Material : Polyester, Fibreboard"
+                },
+                {
+                    "itemDetailId": 5,
+                    "itemDetail": "Bed Size : 180x200 cm"
+                }
+            ]
+        },
+        {
+            "itemId": 51,
+            "itemName": "Nilkamal Riva King",
+            "itemDescription": "Nilkamal Riva King Bed with Storage.",
+            "itemImage": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTxctXq0CFOQb_v9hCAD1N0BjEXlBHLhg8-fpvoJ3bBP8SZll31PtrJ95ZnmAx3SWAp84TM13TFAvjDvu1w7RWAzzoJKPPlRQ",
+            "actualPrice": "20,799",
+            "discountPrice": "17,999",
+            "category": "Furniture",
+            "fav": 0,
+            "itemDetails": [
+                {
+                    "itemDetailId": 1,
+                    "itemDetail": "Brand : Nilkamal"
+                },
+                {
+                    "itemDetailId": 2,
+                    "itemDetail": " :  Wood Type : Engineered wood"
+                },
+                {
+                    "itemDetailId": 3,
+                    "itemDetail": "Subtype : Storage Bed"
+                },
+                {
+                    "itemDetailId": 4,
+                    "itemDetail": "Width : 192 cm"
+                },
+                {
+                    "itemDetailId": 5,
+                    "itemDetail": "Height : 110 cm"
+                }
+            ]
+        },
+        {
+            "itemId": 52,
+            "itemName": "Nilkamal Walton",
+            "itemDescription": "Nilkamal Walton TV Unit.",
+            "itemImage": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQaBmjkDISPR3Ln5_w7hR6kpeG-GJx9Pl2_Lqn96y05Fs5OhnnQr4zkoTmbi03GBTPA6HEVog8hlIB6VOui81GnqDYZg-t9pg",
+            "actualPrice": "10,799",
+            "discountPrice": "8,999",
+            "category": "Furniture",
+            "fav": 0,
+            "itemDetails": [
+                {
+                    "itemDetailId": 1,
+                    "itemDetail": "Brand : Nilkamal"
+                },
+                {
+                    "itemDetailId": 2,
+                    "itemDetail": " :  Included Components : Wardrobe, Chest of drawers"
+                },
+                {
+                    "itemDetailId": 3,
+                    "itemDetail": "Set Quantity : 2-piece"
+                },
+                {
+                    "itemDetailId": 4,
+                    "itemDetail": "Primary Material : Polyester, Fibreboard"
+                },
+                {
+                    "itemDetailId": 5,
+                    "itemDetail": "Chest of drawers : 180x200 cm"
+                }
+            ]
+        },
+        {
+            "itemId": 53,
+            "itemName": "Florence Lounge",
+            "itemDescription": "Florence Lounge Chair.",
+            "itemImage": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcShWoBJGJ3ZQJ3Zhurbv3ObWyg-WXiGaPqo_HUb2rsbBNiLZQ88VpgH1ZgpmjupP3TKxhhPh4CRE3_GuiN6lCa0FapN_c6dOUX5bGtsmvw",
+            "actualPrice": "10,999",
+            "discountPrice": "7,999",
+            "category": "Furniture",
+            "fav": 0,
+            "itemDetails": [
+                {
+                    "itemDetailId": 1,
+                    "itemDetail": "Brand : Florence"
+                },
+                {
+                    "itemDetailId": 2,
+                    "itemDetail": "Frame Material : Wood"
+                },
+                {
+                    "itemDetailId": 3,
+                    "itemDetail": "Depth : 63.50 cm"
+                },
+                {
+                    "itemDetailId": 4,
+                    "itemDetail": "Primary Material : Solid Wood, Sheesham wood"
+                },
+                {
+                    "itemDetailId": 5,
+                    "itemDetail": "Chair Type : Lounge Chair"
+                }
+            ]
+        },
+        {
+            "itemId": 54,
+            "itemName": "DecoLogy Bookshelf for Home",
+            "itemDescription": "DecoLogy Bookshelf for Home |Engineered Books Organizer for Study Room.",
+            "itemImage": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQj55XN30YM-4tWUedFAaaIUgo3Z8cQlZeU1rJRHOQX-oP2OaI3dz3SG5XwUfSxYsEThvO35sc_bdD_gm7YYOyrNWA5qsoj",
+            "actualPrice": "4,199",
+            "discountPrice": "3,699",
+            "category": "Furniture",
+            "fav": 0,
+            "itemDetails": [
+                {
+                    "itemDetailId": 1,
+                    "itemDetail": "Brand : DecoLogy"
+                },
+                {
+                    "itemDetailId": 2,
+                    "itemDetail": " :  Number of Shelves : 1"
+                },
+                {
+                    "itemDetailId": 3,
+                    "itemDetail": "Room Type : Bedroom, Classroom, Laundry Room, Living Room, Study Room"
+                },
+                {
+                    "itemDetailId": 4,
+                    "itemDetail": " Mounting Type : Floor Mount"
+                },
+                {
+                    "itemDetailId": 5,
+                    "itemDetail": "Material : Plastic"
+                }
+            ]
+        },
+        {
+            "itemId": 55,
+            "itemName": "Natural 6 Seat",
+            "itemDescription": "Natural 6 Seat Marble Top Dining Table Set.",
+            "itemImage": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRZspOavCskBQZYE27cUHcxS5vb9hU8C8ZPpty8m5gKAwKa76CMkHlkWU0TnmCY8F4OiniZuJvqJllkcmiv7Fv_Gn7w66yr50w_JqdtKjTy7URroJ695Q3EAg",
+            "actualPrice": "49,799",
+            "discountPrice": "38,999",
+            "category": "Furniture",
+            "fav": 0,
+            "itemDetails": [
+                {
+                    "itemDetailId": 1,
+                    "itemDetail": "Brand : Natural"
+                },
+                {
+                    "itemDetailId": 2,
+                    "itemDetail": " :  Seating Capacity : 6"
+                },
+                {
+                    "itemDetailId": 3,
+                    "itemDetail": "Width : 43 CM (Chair)"
+                },
+                {
+                    "itemDetailId": 4,
+                    "itemDetail": "Length : 5.5 ft (6 SEATER table)"
+                },
+                {
+                    "itemDetailId": 5,
+                    "itemDetail": "Height : 89 CM (Chair)"
+                }
+            ]
+        },
+        {
+            "itemId": 56,
+            "itemName": "Luxo Nation",
+            "itemDescription": "Luxo Nation Elite Premium Sofa.",
+            "itemImage": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTVg5za07yzeKrSc9tuEQ-HVX0JsFNCLAvDMygU7R-BFuS1zq4hO4cmHvhzpC7hAXsfQ7T0bC--zSWrpycv7PUlDWZgI7jB6hB3Yt4N0DA",
+            "actualPrice": "29,799",
+            "discountPrice": "27,999",
+            "category": "Furniture",
+            "fav": 0,
+            "itemDetails": [
+                {
+                    "itemDetailId": 1,
+                    "itemDetail": "Brand : Luxo"
+                },
+                {
+                    "itemDetailId": 2,
+                    "itemDetail": " :  Included Components :  Sofa"
+                },
+                {
+                    "itemDetailId": 3,
+                    "itemDetail": "Set Quantity : 3-piece"
+                },
+                {
+                    "itemDetailId": 4,
+                    "itemDetail": "Primary Material : Polyester, Fibreboard"
+                },
+                {
+                    "itemDetailId": 5,
+                    "itemDetail": "sofa size: 180x200 cm"
+                }
+            ]
+        }
+    ]
+}

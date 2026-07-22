@@ -1,0 +1,46 @@
+{
+  "success": true,
+  "message": "Categories fetched successfully",
+  "data": [
+    {
+      "categoryId": 1,
+      "categoryName": "Mobiles",
+      "categoryImage": "https://images.hindustantimes.com/tech/htmobile4/P99994079245/heroimage/oppo-k13-mobile-phone-large-1.jpg?impolicy=new-ht-20210112&width=400&height=400"
+    },
+    {
+      "categoryId": 2,
+      "categoryName": "Laptops",
+      "categoryImage": "https://5.imimg.com/data5/SELLER/Default/2026/4/599555964/WN/EI/GF/630038/screenshot-capture-2026-04-13-19-20-20-500x500.png"
+    },
+    {
+      "categoryId": 3,
+      "categoryName": "Headphones",
+      "categoryImage": "https://fonacc.com/cdn/shop/files/AceBlast_500x666.jpg?v=1687932943"
+    },
+    {
+      "categoryId": 4,
+      "categoryName": "Smart Watches",
+      "categoryImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW31ruyelD6Z1KcuMgpF_mR8dUVFVEB5jCqSKs0bOMXEj01lFss1m6N0IJ&s=10"
+    },
+    {
+      "categoryId": 5,
+      "categoryName": "Shoes",
+      "categoryImage": "https://www.campusshoes.com/cdn/shop/files/CANVA_22G-1222_WHT_NAVY_0_7364c6b2-cdbe-432a-b5db-4e5ab7cd998d.webp?v=1758278228"
+    },
+    {
+      "categoryId": 6,
+      "categoryName": "Men's Clothing",
+      "categoryImage": "https://assets.myntassets.com/w_200,q_50,,dpr_3,fl_progressive,f_webp/assets/images/2026/MAY/28/DjYkGgyf_f0eb2ec6a82c43d0a38e3343fc76fa19.jpg"
+    },
+    {
+      "categoryId": 7,
+      "categoryName": "Women's Clothing",
+      "categoryImage": "https://www.mydailygoods.com/admin/product_img/504458669_511111402438189.webp"
+    },
+    {
+      "categoryId": 8,
+      "categoryName": "Furniture",
+      "categoryImage": "https://caspianfurniture.com/cdn/shop/files/2_ff100916-a9c3-4b15-b46c-8a5fdfb1c69c.jpg?v=1753776207"
+    }
+  ]
+}

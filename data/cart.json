@@ -1,0 +1,136 @@
+{
+  "success": true,
+  "message": "Cart fetched successfully",
+  "data": [
+    {
+      "cartId": 1,
+      "cartItem": {
+        "itemId": 1,
+        "itemName": "Apple iPhone 16 Pro Max",
+        "itemDescription": "Apple iPhone 16 Pro Max 256GB Natural Titanium.",
+        "itemImage": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=500",
+        "actualPrice": "149999",
+        "discountPrice": "139999",
+        "fav": 0
+      },
+      "itemQuantity": 1
+    },
+    {
+      "cartId": 2,
+      "cartItem": {
+        "itemId": 2,
+        "itemName": "Samsung Galaxy S25 Ultra",
+        "itemDescription": "Samsung Galaxy S25 Ultra 512GB.",
+        "itemImage": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=500",
+        "actualPrice": "134999",
+        "discountPrice": "124999",
+        "fav": 0
+      },
+      "itemQuantity": 2
+    },
+    {
+      "cartId": 3,
+      "cartItem": {
+        "itemId": 3,
+        "itemName": "MacBook Pro M4",
+        "itemDescription": "Apple MacBook Pro M4 16GB RAM 512GB SSD.",
+        "itemImage": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=500",
+        "actualPrice": "199999",
+        "discountPrice": "189999",
+        "fav": 0
+      },
+      "itemQuantity": 1
+    },
+    {
+      "cartId": 4,
+      "cartItem": {
+        "itemId": 4,
+        "itemName": "Dell XPS 15",
+        "itemDescription": "Dell XPS 15 Intel Core Ultra 7.",
+        "itemImage": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=500",
+        "actualPrice": "164999",
+        "discountPrice": "154999",
+        "fav": 0
+      },
+      "itemQuantity": 1
+    },
+    {
+      "cartId": 5,
+      "cartItem": {
+        "itemId": 5,
+        "itemName": "Sony WH-1000XM5",
+        "itemDescription": "Wireless Noise Cancelling Headphones.",
+        "itemImage": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500",
+        "actualPrice": "29999",
+        "discountPrice": "25999",
+        "fav": 0
+      },
+      "itemQuantity": 2
+    },
+    {
+      "cartId": 6,
+      "cartItem": {
+        "itemId": 6,
+        "itemName": "Apple Watch Series 10",
+        "itemDescription": "Apple Smart Watch GPS 45mm.",
+        "itemImage": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500",
+        "actualPrice": "49999",
+        "discountPrice": "46999",
+        "fav": 0
+      },
+      "itemQuantity": 1
+    },
+    {
+      "cartId": 7,
+      "cartItem": {
+        "itemId": 7,
+        "itemName": "Nike Air Max",
+        "itemDescription": "Comfortable Running Shoes.",
+        "itemImage": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500",
+        "actualPrice": "9999",
+        "discountPrice": "8499",
+        "fav": 0
+      },
+      "itemQuantity": 1
+    },
+    {
+      "cartId": 8,
+      "cartItem": {
+        "itemId": 8,
+        "itemName": "Men's Casual Shirt",
+        "itemDescription": "Cotton Casual Shirt for Men.",
+        "itemImage": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500",
+        "actualPrice": "1999",
+        "discountPrice": "1499",
+        "fav": 0
+      },
+      "itemQuantity": 3
+    },
+    {
+      "cartId": 9,
+      "cartItem": {
+        "itemId": 9,
+        "itemName": "Women's Handbag",
+        "itemDescription": "Premium Leather Handbag.",
+        "itemImage": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=500",
+        "actualPrice": "4999",
+        "discountPrice": "3999",
+        "fav": 0
+      },
+      "itemQuantity": 1
+    },
+    {
+      "cartId": 10,
+      "cartItem": {
+        "itemId": 10,
+        "itemName": "Wooden Office Chair",
+        "itemDescription": "Ergonomic Wooden Office Chair.",
+        "itemImage": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=500",
+        "actualPrice": "12999",
+        "discountPrice": "10999",
+        "fav": 0
+      },
+      "itemQuantity": 2
+    }
+  ]
+}
