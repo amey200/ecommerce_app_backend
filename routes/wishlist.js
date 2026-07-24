@@ -19,7 +19,7 @@ router.get("/all", (req, res) => {
 // Add To Wishlist
 //
 router.post("/add", (req, res) => {
-  const { itemId } = req.body;
+  const itemId = item.itemId;
 
   const product = products.data.find(
     (item) => item.itemId == itemId
