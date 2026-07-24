@@ -1,0 +1,233 @@
+
+{
+    "success": true,
+    "message": "Products fetched successfully",
+    "data": [
+        
+            {
+            "itemId": 1,
+            "itemName": "Oppo Find X9 Ultra 512GB Canyon Orange",
+            "itemDescription": "Featuring a premium design, a massive 200 MP Hasselblad master camera setup, and a vibrant 6.8-inch OLED display.",
+            "itemImage": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTyy4JBQxk2N2gaUi5NQl5Ennc8zt-YVnteqZRe5eS06OJF9YQpaYfewDRzWAcFxu0yrevudsat4V8IwzfTuS3t46dxOdgXSw",
+            "actualPrice": "2,21,399",
+            "discountPrice": "1,69,399",
+            "category": "Mobiles",
+            "fav": 0,
+            "itemDetails": [
+                {
+                    "itemDetailId": 1,
+                    "itemDetail": "Brand : Oppo"
+                },
+                {
+                    "itemDetailId": 2,
+                    "itemDetail": "Storage : 512 GB"
+                },
+                {
+                    "itemDetailId": 3,
+                    "itemDetail": "RAM : 12 GB"
+                },
+                {
+                    "itemDetailId": 4,
+                    "itemDetail": "Display : 17.32 cm (6.82 inch)"
+                },
+                {
+                    "itemDetailId": 5,
+                    "itemDetail": "Battery : 6000 mAh"
+                }
+            ]
+        },{
+            "itemId": 9,
+            "itemName": "Dell DC15250 ",
+            "itemDescription": "Dell DC15250 15.6, Intel Core i5-1334U Laptop .",
+            "itemImage": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQ94h7AKfcDVSeIcGxu3gYHsgfwquWmL9KIYMiA0jtvA04peswRg1B8rS94a6wuPQGaxpG1voyq9b-rUPYQ699mjVa8hMeErIOEWF79793ePRkty6z8w5mrVAY",
+            "actualPrice": "69,999",
+            "discountPrice": "65,999",
+            "category": "Laptops",
+            "fav": 0,
+            "itemDetails": [
+                {
+                    "itemDetailId": 1,
+                    "itemDetail": "Brand : Dell"
+                },
+                {
+                    "itemDetailId": 2,
+                    "itemDetail": "Processor Speed : 4.6 GHz CPU"
+                },
+                {
+                    "itemDetailId": 3,
+                    "itemDetail": "Installed Memory : 16 GB RAM"
+                },
+                {
+                    "itemDetailId": 4,
+                    "itemDetail": "Drive Capacity:  512 GB drive"
+                },
+                {
+                    "itemDetailId": 5,
+                    "itemDetail": "Biometric Security : Fingerprint Scan"
+                },
+                {
+                    "itemDetailId": 6,
+                    "itemDetail": "Available Ports : HDMI"
+                }
+            ]
+        },{
+            "itemId": 17,
+            "itemName": "Zebronics Zeb Thunder",
+            "itemDescription": "The device supports audio playback via Bluetooth, 3.5mm aux input, and MicroSD card.",
+            "itemImage": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQVekNHpyGuELwsnFAy3nt5koCC5lDQXFDmbQT_4YR-jvUCBP7b0aMH_WjdHPKVjkfslKE2anhxUh1WhVTQT-HVeVjAgfT-zUYrUEoN45-lVk_M7lGDrPew",
+            "actualPrice": "799",
+            "discountPrice": "599",
+            "category": "Headphones",
+            "fav": 0,
+            "itemDetails": [
+                {
+                    "itemDetailId": 1,
+                    "itemDetail": "Brand : Zebronics"
+                },
+                {
+                    "itemDetailId": 2,
+                    "itemDetail": "Use : Gaming"
+                },
+                {
+                    "itemDetailId": 3,
+                    "itemDetail": "Noise Cancelling : Yes"
+                },
+                {
+                    "itemDetailId": 4,
+                    "itemDetail": "Colour :  Orange"
+                },
+                {
+                    "itemDetailId": 5,
+                    "itemDetail": "Assistant Support : Google Assistant, Siri"
+                }
+            ]
+        }, {
+            "itemId": 26,
+            "itemName": "Fastrack Astor",
+            "itemDescription": "Fastrack Astor FR2 Pro Smart Watch.",
+            "itemImage": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTXm9tAaXgMXqiFzhGbusrQeyVNIX3B-HTueR9RuVPE5hiee6OhW4u_I91LUZdm27tvpWPyjvVMefIvvtMW8wtz9JQKukDE1t_gZPZkuLYBhabjTMN2-l5G",
+            "actualPrice": "2,799",
+            "discountPrice": "2,299",
+            "category": "Smart Watches",
+            "fav": 0,
+            "itemDetails": [
+                {
+                    "itemDetailId": 1,
+                    "itemDetail": "Brand : Fastrack"
+                },
+                {
+                    "itemDetailId": 2,
+                    "itemDetail": " : Connectivity Technology: Bluetooth"
+                },
+                {
+                    "itemDetailId": 3,
+                    "itemDetail": "Wireless Communication Standard : Bluetooth"
+                },
+                {
+                    "itemDetailId": 4,
+                    "itemDetail": "Shape : Rectangular"
+                },
+                {
+                    "itemDetailId": 5,
+                    "itemDetail": "Battery Cell Composition : Lithium Ion"
+                }
+            ]
+        }, {
+            "itemId": 35,
+            "itemName": "Sparx Men's",
+            "itemDescription": "Sparx Men's Mesh Running Shoes.",
+            "itemImage": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTFvXtR7V2V1XDWy9thp4BB6VcXKcSv8VHSz64oZvM3Sxuqpyv7V_GQKfrGberekE6ZAbFd8pXCWGdmNXXybC_LzahEeIZe_8ttUyNOjVstUZrLusZ3It74Og",
+            "actualPrice": "999",
+            "discountPrice": "499",
+            "category": "Shoes",
+            "fav": 0,
+            "itemDetails": [
+                {
+                    "itemDetailId": 1,
+                    "itemDetail": "Brand : Sparx"
+                },
+                {
+                    "itemDetailId": 2,
+                    "itemDetail": " : Color Shade : Dark"
+                },
+                {
+                    "itemDetailId": 3,
+                    "itemDetail": "Model name : Trendy & Stylish"
+                },
+                {
+                    "itemDetailId": 4,
+                    "itemDetail": "Inner material : Mesh"
+                },
+                {
+                    "itemDetailId": 5,
+                    "itemDetail": "Colour : Black"
+                }
+            ]
+        },{
+            "itemId": 46,
+            "itemName": "KARMA APPAREL Women’s",
+            "itemDescription": "KARMA APPAREL Women’s Stylish Puff Sleeve Ruched Bow Front Top Trendy Casual Summer Wear for Girls.",
+            "itemImage": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQXudlcPUkLUJSbYrT0cAzExhJoqElHh6SDx94mpwcgyIzjSfID1GAvyKUGQ9TnqjcAxbbjp7hUWMenbokHvzijX2n4_Ca9Z1XHXE75g4c",
+            "actualPrice": "499",
+            "discountPrice": "350",
+            "category": "Women's Clothing",
+            "fav": 0,
+            "itemDetails": [
+                {
+                    "itemDetailId": 1,
+                    "itemDetail": "Brand : KARMA APPAREL"
+                },
+                {
+                    "itemDetailId": 2,
+                    "itemDetail": " : Material type : Cotton Blend"
+                },
+                {
+                    "itemDetailId": 3,
+                    "itemDetail": "Fit type : Regular"
+                },
+                {
+                    "itemDetailId": 4,
+                    "itemDetail": "Style : Mens Co-ords"
+                },
+                {
+                    "itemDetailId": 5,
+                    "itemDetail": "Country of Origin : India"
+                }
+            ]
+        }, {
+            "itemId": 56,
+            "itemName": "Luxo Nation",
+            "itemDescription": "Luxo Nation Elite Premium Sofa.",
+            "itemImage": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTVg5za07yzeKrSc9tuEQ-HVX0JsFNCLAvDMygU7R-BFuS1zq4hO4cmHvhzpC7hAXsfQ7T0bC--zSWrpycv7PUlDWZgI7jB6hB3Yt4N0DA",
+            "actualPrice": "29,799",
+            "discountPrice": "27,999",
+            "category": "Furniture",
+            "fav": 0,
+            "itemDetails": [
+                {
+                    "itemDetailId": 1,
+                    "itemDetail": "Brand : Luxo"
+                },
+                {
+                    "itemDetailId": 2,
+                    "itemDetail": " :  Included Components :  Sofa"
+                },
+                {
+                    "itemDetailId": 3,
+                    "itemDetail": "Set Quantity : 3-piece"
+                },
+                {
+                    "itemDetailId": 4,
+                    "itemDetail": "Primary Material : Polyester, Fibreboard"
+                },
+                {
+                    "itemDetailId": 5,
+                    "itemDetail": "sofa size: 180x200 cm"
+                }
+            ]
+        
+        } 
+    ]
+
+
+}

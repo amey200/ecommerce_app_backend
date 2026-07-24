@@ -9,6 +9,8 @@ const cartRoutes = require("./routes/cart");
 const addressRoutes = require("./routes/address");
 const orderRoutes = require("./routes/order");
 const userRoutes = require("./routes/user");
+const recommendedRoutes = require("./routes/recommended");
+
 
 const app = express();
 
@@ -23,6 +25,7 @@ app.use("/cart", cartRoutes);
 app.use("/ecom/user", addressRoutes);
 app.use("/order", orderRoutes);
 app.use("/ecom/user", userRoutes);
+app.use("/item", recommendedRoutes);
 
 app.get("/", (req, res) => {
   res.json({
