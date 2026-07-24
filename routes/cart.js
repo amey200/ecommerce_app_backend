@@ -16,7 +16,7 @@ router.get("/all", (req, res) => {
 // Add To Cart
 //
 router.post("/add", (req, res) => {
-  const { itemId } = req.body;
+  const itemId = req.body.cartItem?.itemId;
 
   const product = products.data.find(
     (item) => item.itemId == itemId
