@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 
-const products = require("../data/products.json");
+const products = require("../data/recommented.json");
 
 router.get("/recommendation", (req, res) => {
   res.status(200).json({
