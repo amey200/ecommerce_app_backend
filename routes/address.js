@@ -25,26 +25,13 @@ router.get("/addresses", (req, res) => {
 // Add Address
 //
 router.post("/address/add", (req, res) => {
-  const {
-    userEmail,
-    fullName,
-    mobileNumber,
-    addressLine1,
-    addressLine2,
-    city,
-    state,
-    pincode,
-    addressType
+  const { address, user 
   } = req.body;
 
+  const userEmail = user?.userEmail;
+
   if (
-    !userEmail ||
-    !fullName ||
-    !mobileNumber ||
-    !addressLine1 ||
-    !city ||
-    !state ||
-    !pincode
+   !address || !user
   ) {
     return res.status(400).json({
       success: false,
