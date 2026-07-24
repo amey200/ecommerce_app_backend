@@ -45,15 +45,7 @@ router.post("/add", (req, res) => {
 
   const newCartItem = {
     cartId: cart.data.length + 1,
-    cartItem: {
-      itemId: product.itemId,
-      itemName: product.itemName,
-      itemDescription: product.itemDescription,
-      itemImage: product.itemImage,
-      actualPrice: product.actualPrice,
-      discountPrice: product.discountPrice,
-      fav: product.fav
-    },
+    cartItem: product,
     itemQuantity: 1
   };
 
@@ -61,17 +53,16 @@ router.post("/add", (req, res) => {
 
   res.status(200).json({
     success: true,
-    message: "Product added to cart successfully",
+    message: "Product added successfully",
     data: newCartItem
   });
 });
 
 //
-// Increase / Decrease Quantity
+// Increase quantity
 //
-router.put("/add/quantity", (req, res) => {
-  const cartId = parseInt(req.query.cartId);
-  const quantity = parseInt(req.query.quantity);
+router.put("/increase/:cartId", (req, res) => {
+  const cartId = parseInt(req.params.cartId);
 
   const cartItem = cart.data.find(
     (item) => item.cartId === cartId
@@ -80,15 +71,47 @@ router.put("/add/quantity", (req, res) => {
   if (!cartItem) {
     return res.status(404).json({
       success: false,
-      message: "Cart Item not found"
+      message: "Cart item not found"
     });
   }
 
-  cartItem.itemQuantity = quantity;
+  cartItem.itemQuantity++;
 
   res.status(200).json({
     success: true,
-    message: "Quantity updated successfully",
+    message: "Quantity increased",
+    data: cartItem
+  });
+});
+
+// decrese quantity
+
+router.put("/decrease/:cartId", (req, res) => {
+  const cartId = parseInt(req.params.cartId);
+
+  const cartItem = cart.data.find(
+    (item) => item.cartId === cartId
+  );
+
+  if (!cartItem) {
+    return res.status(404).json({
+      success: false,
+      message: "Cart item not found"
+    });
+  }
+
+  if (cartItem.itemQuantity > 1) {
+    cartItem.itemQuantity--;
+  } else {
+    const index = cart.data.findIndex(
+      (item) => item.cartId === cartId
+    );
+    cart.data.splice(index, 1);
+  }
+
+  res.status(200).json({
+    success: true,
+    message: "Quantity decreased",
     data: cartItem
   });
 });
@@ -106,7 +129,7 @@ router.delete("/remove/:cartId", (req, res) => {
   if (index === -1) {
     return res.status(404).json({
       success: false,
-      message: "Cart Item not found"
+      message: "Cart item not found"
     });
   }
 
