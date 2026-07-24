@@ -9,7 +9,7 @@ const cartRoutes = require("./routes/cart");
 const addressRoutes = require("./routes/address");
 const orderRoutes = require("./routes/order");
 const userRoutes = require("./routes/user");
-const recommendedRoutes = require("./routes/recommended");
+const recommendedRoutes = require("./routes/recommendation");
 
 
 const app = express();
