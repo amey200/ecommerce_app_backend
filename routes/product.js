@@ -6,11 +6,11 @@ const products = require("../data/products.json");
 //
 // Recommended Products
 //
-router.get("/recommendation", (req, res) => {
+// router.get("/recommendation", (req, res) => {
 
-    res.status(200).json(products);
+//     res.status(200).json(products);
 
-});
+// });
 
 //
 // Category Products
