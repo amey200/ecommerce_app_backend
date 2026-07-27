@@ -25,21 +25,21 @@ router.get("/addresses", (req, res) => {
 // Add Address
 //
 router.post("/address/add", (req, res) => {
-  const { address, user 
-  } = req.body;
 
-  const userEmail = user?.userEmail;
+  const { address, userEmail } = req.body;
 
-  if (
-   !address || !user
-  ) {
+  if (!address || !userEmail) {
     return res.status(400).json({
       success: false,
       message: "All required fields are mandatory"
     });
   }
 
-  const newAddress =  { address, userEmail } = req.body;
+  const newAddress = {
+    addressId: addresses.data.length + 1,
+    address,
+    userEmail
+  };
 
   addresses.data.push(newAddress);
 
@@ -49,14 +49,6 @@ router.post("/address/add", (req, res) => {
     data: newAddress
   });
 
-
-  addresses.data.push(newAddress);
-
-  res.status(201).json({
-    success: true,
-    message: "Address added successfully",
-    data: newAddress
-  });
 });
 
 //
