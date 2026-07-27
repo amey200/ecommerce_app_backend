@@ -22,7 +22,6 @@ router.get("/all", (req, res) => {
     });
 
 });
-
 //
 // Add To Cart
 //
