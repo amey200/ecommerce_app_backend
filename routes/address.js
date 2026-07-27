@@ -39,19 +39,16 @@ router.post("/address/add", (req, res) => {
     });
   }
 
-  const newAddress = {
-    addressId: addresses.data.length + 1,
-    userEmail,
-    fullName,
-    mobileNumber,
-    addressLine1,
-    addressLine2,
-    city,
-    state,
-    pincode,
-    addressType,
-    defaultAddress: addresses.data.length === 0
-  };
+  const newAddress =  { address, userEmail } = req.body;
+
+  addresses.data.push(newAddress);
+
+  res.status(201).json({
+    success: true,
+    message: "Address added successfully",
+    data: newAddress
+  });
+
 
   addresses.data.push(newAddress);
 

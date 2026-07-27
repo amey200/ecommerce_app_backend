@@ -44,14 +44,9 @@ router.post("/add", (req, res) => {
   });
 
   const order = {
-    orderId: orders.data.length + 1,
-    orderDate: new Date().toISOString(),
-    address: address,
-    products: cart.data,
-    actualPrice: actualPrice,
-    discountedPrice: discountedPrice,
-    totalAmount: discountedPrice
-  };
+    "user": { 'userEmail'},
+    "orderAddress",
+    "orderItems"} = req.body;
 
   orders.data.push(order);
 
