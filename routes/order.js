@@ -11,16 +11,26 @@ const cartFilePath = path.join(__dirname, "../data/cart.json");
 // GET ALL ORDERS
 //
 router.get("/all", (req, res) => {
+  const { userEmail } = req.query;
+
   const orders = JSON.parse(fs.readFileSync(orderFilePath, "utf8"));
 
-  res.status(200).json(orders);
+  const userOrders = orders.data.filter(
+    (order) => order.user.userEmail === userEmail
+  );
+
+  res.status(200).json({
+    success: true,
+    message: "Orders fetched successfully",
+    data: userOrders,
+  });
 });
 
 //
 // PLACE ORDER
 //
 router.post("/add", (req, res) => {
-  const { address } = req.body;
+  const { userEmail, addressId } = req.body;
 
   const orders = JSON.parse(fs.readFileSync(orderFilePath, "utf8"));
   const cart = JSON.parse(fs.readFileSync(cartFilePath, "utf8"));
@@ -32,21 +42,31 @@ router.post("/add", (req, res) => {
     });
   }
 
+  const userCart = cart.data.filter(
+    (item) => item.user.userEmail === userEmail
+  );
+
   let actualPrice = 0;
   let discountedPrice = 0;
 
-  cart.data.forEach((item) => {
-    actualPrice +=
-      Number(item.cartItem.actualPrice) * item.itemQuantity;
-
-    discountedPrice +=
-      Number(item.cartItem.discountPrice) * item.itemQuantity;
+  userCart.forEach((item) => {
+    actualPrice += Number(item.cartItem.actualPrice) * item.itemQuantity;
+    discountedPrice += Number(item.cartItem.discountPrice) * item.itemQuantity;
   });
 
   const order = {
-    "user": { 'userEmail'},
-    "orderAddress",
-    "orderItems"} = req.body;
+    orderId: orders.data.length + 1,
+    user: {
+      userEmail
+    },
+    addressId,
+    orderItems: userCart,
+    actualPrice,
+    discountedPrice,
+    totalAmount: discountedPrice,
+    orderDate: new Date().toISOString(),
+    orderStatus: "Pending"
+  };
 
   orders.data.push(order);
 
@@ -55,8 +75,10 @@ router.post("/add", (req, res) => {
     JSON.stringify(orders, null, 2)
   );
 
-  // Empty cart after successful order
-  cart.data = [];
+  // Remove only this user's cart
+  cart.data = cart.data.filter(
+    (item) => item.user.userEmail !== userEmail
+  );
 
   fs.writeFileSync(
     cartFilePath,
