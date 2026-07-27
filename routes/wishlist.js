@@ -1,17 +1,28 @@
 const express = require("express");
+const fs = require("fs");
+const path = require("path");
+
 const router = express.Router();
 
-const wishlist = require("../data/wishlist.json");
-const products = require("../data/products.json");
+const wishlistFilePath = path.join(__dirname, "../data/wishlist.json");
+const productFilePath = path.join(__dirname, "../data/products.json");
 
 //
 // Get Wishlist
 //
 router.get("/all", (req, res) => {
+  const { userEmail } = req.query;
+
+  const wishlist = JSON.parse(fs.readFileSync(wishlistFilePath, "utf8"));
+
+  const userWishlist = wishlist.data.filter(
+    (item) => item.user.userEmail === userEmail
+  );
+
   res.status(200).json({
     success: true,
     message: "Wishlist fetched successfully",
-    data: wishlist.data
+    data: userWishlist
   });
 });
 
@@ -19,10 +30,23 @@ router.get("/all", (req, res) => {
 // Add To Wishlist
 //
 router.post("/add", (req, res) => {
-  const itemId = item.itemId;
+  const { item, user } = req.body;
+
+  const itemId = item?.itemId;
+  const userEmail = user?.userEmail;
+
+  if (!itemId || !userEmail) {
+    return res.status(400).json({
+      success: false,
+      message: "ItemId and UserEmail are required"
+    });
+  }
+
+  const wishlist = JSON.parse(fs.readFileSync(wishlistFilePath, "utf8"));
+  const products = JSON.parse(fs.readFileSync(productFilePath, "utf8"));
 
   const product = products.data.find(
-    (item) => item.itemId == itemId
+    (p) => p.itemId == itemId
   );
 
   if (!product) {
@@ -33,7 +57,9 @@ router.post("/add", (req, res) => {
   }
 
   const alreadyAdded = wishlist.data.find(
-    (item) => item.wishListItem.itemId == itemId
+    (w) =>
+      w.user.userEmail === userEmail &&
+      w.wishListItem.itemId == itemId
   );
 
   if (alreadyAdded) {
@@ -45,6 +71,11 @@ router.post("/add", (req, res) => {
 
   const newWishListItem = {
     wishListId: wishlist.data.length + 1,
+
+    user: {
+      userEmail
+    },
+
     wishListItem: {
       itemId: product.itemId,
       itemName: product.itemName,
@@ -52,11 +83,18 @@ router.post("/add", (req, res) => {
       itemImage: product.itemImage,
       actualPrice: product.actualPrice,
       discountPrice: product.discountPrice,
-      fav: 1
+      category: product.category,
+      fav: 1,
+      itemDetails: product.itemDetails
     }
   };
 
   wishlist.data.push(newWishListItem);
+
+  fs.writeFileSync(
+    wishlistFilePath,
+    JSON.stringify(wishlist, null, 2)
+  );
 
   res.status(200).json({
     success: true,
@@ -69,11 +107,15 @@ router.post("/add", (req, res) => {
 // Remove Wishlist Item
 //
 router.delete("/remove/item/:id", (req, res) => {
-
   const itemId = parseInt(req.params.id);
+  const userEmail = req.query.userEmail;
+
+  const wishlist = JSON.parse(fs.readFileSync(wishlistFilePath, "utf8"));
 
   const index = wishlist.data.findIndex(
-    (item) => item.wishListItem.itemId === itemId
+    (item) =>
+      item.wishListItem.itemId === itemId &&
+      item.user.userEmail === userEmail
   );
 
   if (index === -1) {
@@ -84,6 +126,11 @@ router.delete("/remove/item/:id", (req, res) => {
   }
 
   wishlist.data.splice(index, 1);
+
+  fs.writeFileSync(
+    wishlistFilePath,
+    JSON.stringify(wishlist, null, 2)
+  );
 
   res.status(200).json({
     success: true,
