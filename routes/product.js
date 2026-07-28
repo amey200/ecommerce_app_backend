@@ -24,9 +24,13 @@ router.get("/get/:category/all", (req, res) => {
 
     const category = req.params.category;
 
-    const filteredProducts = products.data.filter(
+    const filteredProducts = products.data
+    .filter(
         (item) =>
             item.category.toLowerCase() === category.toLowerCase()
+    )
+    .map(
+        (product) => getProductWithFav(product, userEmail)
     );
 
     res.status(200).json({
