@@ -1,95 +1,101 @@
 const express = require("express");
-const fs = require("fs");
-const path = require("path");
+const { FieldValue } = require("firebase-admin/firestore");
+const db = require("../firebase");
 
 const router = express.Router();
 
-const orderFilePath = path.join(__dirname, "../data/orders.json");
-const cartFilePath = path.join(__dirname, "../data/cart.json");
+// GET ALL ORDERS FOR ONE USER
+router.get("/all", async (req, res) => {
+  try {
+    const { userEmail } = req.query;
+    const ordersSnapshot = await db
+      .collection("orders")
+      .where("userEmail", "==", userEmail)
+      .get();
 
-//
-// GET ALL ORDERS
-//
-router.get("/all", (req, res) => {
-  const { userEmail } = req.query;
+    const userOrders = ordersSnapshot.docs
+      .map((doc) => doc.data())
+      .sort((first, second) =>
+        String(second.orderDate).localeCompare(String(first.orderDate))
+      );
 
-  const orders = JSON.parse(fs.readFileSync(orderFilePath, "utf8"));
-
-  const userOrders = orders.data.filter(
-    (order) => order.user.userEmail === userEmail
-  );
-
-  res.status(200).json({
-    success: true,
-    message: "Orders fetched successfully",
-    data: userOrders,
-  });
+    res.status(200).json({
+      success: true,
+      message: "Orders fetched successfully",
+      data: userOrders,
+    });
+  } catch (error) {
+    res.status(500).json({ success: false, message: error.message });
+  }
 });
 
-//
 // PLACE ORDER
-//
-router.post("/add", (req, res) => {
-  const { userEmail, addressId } = req.body;
+router.post("/add", async (req, res) => {
+  try {
+    const { userEmail, addressId } = req.body;
 
-  const orders = JSON.parse(fs.readFileSync(orderFilePath, "utf8"));
-  const cart = JSON.parse(fs.readFileSync(cartFilePath, "utf8"));
+    if (!userEmail || addressId === undefined) {
+      return res.status(400).json({
+        success: false,
+        message: "User email and address are required",
+      });
+    }
 
-  if (!cart.data || cart.data.length === 0) {
-    return res.status(400).json({
-      success: false,
-      message: "Cart is empty"
+    const cartRef = db.collection("carts").doc(userEmail);
+    const cartDoc = await cartRef.get();
+    const userCart = cartDoc.exists ? cartDoc.data().items || [] : [];
+
+    if (userCart.length === 0) {
+      return res.status(400).json({
+        success: false,
+        message: "Cart is empty",
+      });
+    }
+
+    let actualPrice = 0;
+    let discountedPrice = 0;
+
+    userCart.forEach((item) => {
+      actualPrice += Number(item.cartItem.actualPrice) * item.itemQuantity;
+      discountedPrice += Number(item.cartItem.discountPrice) * item.itemQuantity;
     });
+
+    const order = {
+      orderId: Date.now(),
+      user: { userEmail },
+      userEmail,
+      addressId: Number(addressId),
+      orderItems: userCart,
+      actualPrice,
+      discountedPrice,
+      totalAmount: discountedPrice,
+      orderDate: new Date().toISOString(),
+      orderStatus: "Pending",
+    };
+
+    const orderRef = db.collection("orders").doc();
+    const batch = db.batch();
+    batch.set(orderRef, order);
+    batch.set(
+      cartRef,
+      {
+        userEmail,
+        items: [],
+        totalAmount: 0,
+        updatedAt: FieldValue.serverTimestamp(),
+      },
+      { merge: true }
+    );
+    await batch.commit();
+
+    res.status(201).json({
+      success: true,
+      message: "Order placed successfully",
+      data: order,
+    });
+  } catch (error) {
+    res.status(500).json({ success: false, message: error.message });
   }
-
-  const userCart = cart.data.filter(
-    (item) => item.user.userEmail === userEmail
-  );
-
-  let actualPrice = 0;
-  let discountedPrice = 0;
-
-  userCart.forEach((item) => {
-    actualPrice += Number(item.cartItem.actualPrice) * item.itemQuantity;
-    discountedPrice += Number(item.cartItem.discountPrice) * item.itemQuantity;
-  });
-
-  const order = {
-    orderId: orders.data.length + 1,
-    user: {
-      userEmail
-    },
-    addressId,
-    orderItems: userCart,
-    actualPrice,
-    discountedPrice,
-    totalAmount: discountedPrice,
-    orderDate: new Date().toISOString(),
-    orderStatus: "Pending"
-  };
-
-  orders.data.push(order);
-
-  fs.writeFileSync(
-    orderFilePath,
-    JSON.stringify(orders, null, 2)
-  );
-
-  // Remove only this user's cart
-  cart.data = cart.data.filter(
-    (item) => item.user.userEmail !== userEmail
-  );
-
-  fs.writeFileSync(
-    cartFilePath,
-    JSON.stringify(cart, null, 2)
-  );
-
-  res.status(201).json({
-    success: true,
-    message: "Order placed successfully",
-    data: order
-  });
 });
 
 module.exports = router;
